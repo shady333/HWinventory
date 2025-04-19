@@ -2,8 +2,8 @@ name: Daily Inventory Scraper
 
 on:
   schedule:
-    - cron: '0 16 * * *'
-  workflow_dispatch:
+    - cron: '0 16 * * *'  # Щодня о 16:00 UTC
+  workflow_dispatch:  # Дозволяє ручний запуск
 
 jobs:
   scrape:
@@ -26,9 +26,6 @@ jobs:
     - name: List files
       run: ls -la
 
-    - name: Wait 1 second
-      run: sleep 1
-
     - name: Run scraper
       run: python script.py
 
@@ -40,6 +37,8 @@ jobs:
         git config --global user.name 'GitHub Action'
         git config --global user.email 'action@github.com'
         git add inventory_data.csv inventory_data_UK.csv inventory.json urls.json max_inventory.json
-        git commit -m 'Update inventory files'
+        git commit -m 'Update inventory files' || echo "No changes to commit"
         git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       continue-on-error: true
