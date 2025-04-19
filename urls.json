@@ -1,0 +1,101 @@
+{
+  "us": [
+    {
+      "name": "Mattel Creations",
+      "urls": [
+        "https://creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31",
+        "https://creations.mattel.com/products/hot-wheels-wrangler-85-ford-bronco-hyp66",
+        "https://creations.mattel.com/products/paul-george-hot-wheels-circle-tracker-hph63"
+      ]
+    },
+    {
+      "name": "RLC",
+      "urls": [
+        "https://creations.mattel.com/products/hot-wheels-rlc-exclusive-porsche-959-jcp15",
+        "https://creations.mattel.com/products/hot-wheels-rlc-exclusive-1995-honda-integra-type-r-jcp06",
+        "https://creations.mattel.com/products/hot-wheels-rlc-71-lamborghini-hwf11",
+        "https://creations.mattel.com/products/hot-wheels-rlc-1964-dodge-w200-power-wagon-hwf09",
+        "https://creations.mattel.com/products/hot-wheels-rlc-kawa-bug-a-jfh82"
+      ]
+    },
+    {
+      "name": "Elite 64",
+      "urls": [
+        "https://creations.mattel.com/products/hot-wheels-elite64-scania-770-s-tractor-trailer-hwr95",
+        "https://creations.mattel.com/products/hot-wheels-elite-64-aston-martin-valkyrie-hwr91",
+        "https://creations.mattel.com/products/hot-wheels-elite-64-mclaren-m6gt-hwg05",
+        "https://creations.mattel.com/products/hot-wheels-e64-79-toyota-hilux-hwr90",
+        "https://creations.mattel.com/products/hot-wheels-elite64-94-land-rover-discovery-hnj65",
+        "https://creations.mattel.com/products/hot-wheels-elite-64-bmw-318i-e21-hnj60",
+        "https://creations.mattel.com/products/elite-64-mod-shop-17-toyota-tacoma-hnj64",
+        "https://creations.mattel.com/products/hot-wheels-elite-64-bugatti-type-59-hnj62",
+        "https://creations.mattel.com/products/hot-wheels-elite-64-porsche-928-safari-hnj58",
+        "https://creations.mattel.com/products/hot-wheels-elite-64-pandem-nissan-280zx-hnj59",
+        "https://creations.mattel.com/products/elite-64-series-21-audi-rs-7-sportback-hgw11",
+        "https://creations.mattel.com/products/elite-64-series-land-rover-defender-90-pickup-hgw12",
+        "https://creations.mattel.com/products/hot-wheels-elite-modified-69-ford-mustang-hgw13"
+      ]
+    },
+    {
+      "name": "Premium",
+      "urls": [
+        "https://creations.mattel.com/products/hot-wheels-premium-fast-furious-jbl91",
+        "https://creations.mattel.com/products/hot-wheels-premium-car-culture-2-pack-jbl06",
+        "https://creations.mattel.com/products/hot-wheels-boulevard-vehicle-jbl18",
+        "https://creations.mattel.com/products/hot-wheels-boulevard-vehicle-jbl16",
+        "https://creations.mattel.com/products/hot-wheels-boulevard-vehicle-hrt68",
+        "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-ford-mustang-rtr-hkc85",
+        "https://creations.mattel.com/products/hot-wheels-premium-car-culture-2-pack-hrr77",
+        "https://creations.mattel.com/products/hot-wheels-premium-car-culture-2-pack-hrr83"
+      ]
+    },
+    {
+      "name": "Matchbox",
+      "urls": [
+        "https://creations.mattel.com/products/matchbox-1975-range-rover-hwx67",
+        "https://creations.mattel.com/products/1979-chevy-blazer-hwx77",
+        "https://creations.mattel.com/products/matchbox-1995-volkswagen-golf-harlequin-hwx70",
+        "https://creations.mattel.com/products/matchbox-70-datsun-510-rally-hwx69",
+        "https://creations.mattel.com/products/matchbox-collectors-mercedes-benz-slr-mclaren-hlj84",
+        "https://creations.mattel.com/products/matchbox-collector-motortrend-kurtis-sport-car-hwx72",
+        "https://creations.mattel.com/products/mercedes-benz-unimog-u-5020-fire-truck-hlj82",
+        "https://creations.mattel.com/products/matchbox-2021-ford-bronco-hlj78",
+        "https://creations.mattel.com/products/matchbox-collectors-jeep-gladiator-hlj76",
+        "https://creations.mattel.com/products/matchbox-1962-plymouth-savoy-hlj81"
+      ]
+    }
+  ],
+  "uk": [
+    {
+      "name": "UK RLC",
+      "urls": [
+        "https://uk.creations.mattel.com/products/hot-wheels-rlc-exclusive-1995-honda-integra-type-r-jcp06",
+        "https://uk.creations.mattel.com/products/hot-wheels-rlc-22-ford-mustang-hwf05",
+        "https://uk.creations.mattel.com/products/rlc-mclaren-f1-hgk75",
+        "https://uk.creations.mattel.com/products/hot-wheels-rlc-kawa-bug-a-hwf03",
+        "https://uk.creations.mattel.com/products/hot-wheels-rlc-2006-bmw-m3-jcp11",
+        "https://uk.creations.mattel.com/products/hot-wheels-rlc-71-lamborghini-hwf11",
+        "https://uk.creations.mattel.com/products/hot-wheels-rlc-exclusive-porsche-959-jcp15"
+      ]
+    },
+    {
+      "name": "UK Mattel Creations",
+      "urls": [
+        "https://uk.creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31",
+        "https://uk.creations.mattel.com/products/hot-wheels-x-ferrari-heritage-set-jdk37"
+      ]
+    },
+    {
+      "name": "UK Elite 64",
+      "urls": [
+        "https://uk.creations.mattel.com/products/hot-wheels-elite64-scania-770-s-tractor-trailer-hwr95",
+        "https://uk.creations.mattel.com/products/hot-wheels-elite64-porsche-911-gt2-evo-993-hwr94",
+        "https://uk.creations.mattel.com/products/hot-wheels-elite-64-aston-martin-valkyrie-hwr91",
+        "https://uk.creations.mattel.com/products/hot-wheels-elite-64-mclaren-m6gt-hwg05",
+        "https://uk.creations.mattel.com/products/elite-64-series-21-audi-rs-7-sportback-hgw11",
+        "https://uk.creations.mattel.com/products/hot-wheels-elite-modified-69-ford-mustang-hgw13",
+        "https://uk.creations.mattel.com/products/elite-64-series-land-rover-defender-90-pickup-hgw12"
+      ]
+    }
+  ]
+}
