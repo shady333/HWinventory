@@ -2,7 +2,8 @@ name: Daily Inventory Scraper
 
 on:
   schedule:
-    - cron: '0 16 * * *'  # Щодня о 16:00 UTC
+    - cron: '0 16 * * *'  # Щодня о 16:00 UTC (19:00 за Києвом)
+    - cron: '0 */4 * * *'  # Кожні 4 години (00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC)
   workflow_dispatch:  # Дозволяє ручний запуск
 
 jobs:
