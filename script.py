@@ -144,7 +144,7 @@ def load_max_inventory(file_path):
 # Функція для оновлення максимальних кількостей
 def update_max_inventory(all_results, all_results_uk, max_file):
     max_inventory = load_max_inventory(max_file)
-    current_date = datetime.now().strftime("%d.%m.%Y")
+    current_date = datetime.now().strftime("%d.%m.%Y %H:%M UTC")
     print("Updating max inventory...")
 
     for result in all_results:
@@ -210,7 +210,7 @@ def update_max_inventory(all_results, all_results_uk, max_file):
 
 # Функція для збереження JSON
 def save_to_json(all_results, all_results_uk, max_inventory, json_file):
-    current_date = datetime.now().strftime("%d.%m.%Y")
+    current_date = datetime.now().strftime("%d.%m.%Y %H:%M UTC")
     data = {
         "date": current_date,
         "us": [],
