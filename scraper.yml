@@ -2,7 +2,7 @@ name: Daily Inventory Scraper
 
 on:
   schedule:
-    - cron: '0 16 * * *'  # Щодня о 16:00 UTC (9:00 AM PT/PDT)
+    - cron: '0 16 * * *'
   workflow_dispatch:
 
 jobs:
@@ -23,11 +23,17 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: List files
+      run: ls -la
+
     - name: Wait 1 second
-      run: sleep 1  # Затримка 1 секунда
+      run: sleep 1
 
     - name: Run scraper
       run: python script.py
+
+    - name: Show inventory.json
+      run: cat inventory.json
 
     - name: Commit and push files
       run: |
