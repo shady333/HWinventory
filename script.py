@@ -10,18 +10,17 @@ import json
 # Функція для отримання даних із URL
 def get_page_data(url):
     try:
-        response = requests.get(url)
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+        response = requests.get(url, headers=headers)
         response.raise_for_status()
 
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        # Отримуємо title
         title_tag = soup.find('title')
         title = title_tag.text.strip() if title_tag else "Title not found"
         if " | " in title:
             title = title.split(" | ")[0].strip()
 
-        # Шукаємо inventoryQty
         script_tags = soup.find_all('script')
         inventory_qty_value = None
 
@@ -43,7 +42,7 @@ def get_page_data(url):
             if inventory_qty_int < 0:
                 inventory_qty_value = "SOLD OUT"
             else:
-                inventory_qty_value = str(inventory_qty_int)  # Зберігаємо як рядок для консистентності
+                inventory_qty_value = str(inventory_qty_int)
 
         return {
             'title': title,
@@ -56,7 +55,7 @@ def get_page_data(url):
             'inventoryQty': "Error fetching data"
         }
 
-# Функція для обробки групи URL і виводу в консоль
+# Функція для обробки групи URL
 def process_url_group(group_name, urls):
     print(f"\n{group_name}")
     print("=" * len(group_name))
@@ -87,7 +86,7 @@ def process_url_group(group_name, urls):
 
     return results
 
-# Функція для оновлення CSV-файлу
+# Функція для оновлення CSV
 def update_csv_file(all_results, csv_file):
     current_date = datetime.now().strftime("%d.%m.%Y")
     if os.path.exists(csv_file):
@@ -129,22 +128,22 @@ def load_max_inventory(file_path):
 # Функція для оновлення максимальних кількостей
 def update_max_inventory(all_results, all_results_uk, max_file):
     max_inventory = load_max_inventory(max_file)
-    
-    # Оновлюємо US
+    current_date = datetime.now().strftime("%d.%m.%Y")
+
     for result in all_results:
         key = f"{result['Car Series']}:{result['Car Name']}"
         current_qty = result['InventoryQty']
-        if current_qty.isdigit():  # Перевіряємо, чи це число
+        if current_qty.isdigit():
             current_qty_int = int(current_qty)
             max_qty = max_inventory["us"].get(key, {}).get("maxInventoryQty", 0)
             if current_qty_int > max_qty:
                 max_inventory["us"][key] = {
                     "Car Series": result["Car Series"],
                     "Car Name": result["Car Name"],
-                    "maxInventoryQty": current_qty_int
+                    "maxInventoryQty": current_qty_int,
+                    "maxInventoryDate": current_date
                 }
 
-    # Оновлюємо UK
     for result in all_results_uk:
         key = f"{result['Car Series']}:{result['Car Name']}"
         current_qty = result['InventoryQty']
@@ -155,16 +154,16 @@ def update_max_inventory(all_results, all_results_uk, max_file):
                 max_inventory["uk"][key] = {
                     "Car Series": result["Car Series"],
                     "Car Name": result["Car Name"],
-                    "maxInventoryQty": current_qty_int
+                    "maxInventoryQty": current_qty_int,
+                    "maxInventoryDate": current_date
                 }
 
-    # Зберігаємо оновлені максимуми
     with open(max_file, 'w', encoding='utf-8') as f:
         json.dump(max_inventory, f, ensure_ascii=False, indent=2)
     print(f"Максимальні кількості збережено у {max_file}")
     return max_inventory
 
-# Функція для збереження результатів у JSON
+# Функція для збереження JSON
 def save_to_json(all_results, all_results_uk, max_inventory, json_file):
     current_date = datetime.now().strftime("%d.%m.%Y")
     data = {
@@ -173,33 +172,37 @@ def save_to_json(all_results, all_results_uk, max_inventory, json_file):
         "uk": []
     }
 
-    # Додаємо US дані
     for result in all_results:
         key = f"{result['Car Series']}:{result['Car Name']}"
-        max_qty = max_inventory["us"].get(key, {}).get("maxInventoryQty", "N/A")
+        max_data = max_inventory["us"].get(key, {})
+        max_qty = max_data.get("maxInventoryQty", "N/A")
+        max_date = max_data.get("maxInventoryDate", "N/A")
         data["us"].append({
             "Car Series": result["Car Series"],
             "Car Name": result["Car Name"],
             "InventoryQty": result["InventoryQty"],
-            "maxInventoryQty": str(max_qty) if max_qty != "N/A" else "N/A"
+            "maxInventoryQty": str(max_qty) if max_qty != "N/A" else "N/A",
+            "maxInventoryDate": max_date
         })
 
-    # Додаємо UK дані
     for result in all_results_uk:
         key = f"{result['Car Series']}:{result['Car Name']}"
-        max_qty = max_inventory["uk"].get(key, {}).get("maxInventoryQty", "N/A")
+        max_data = max_inventory["uk"].get(key, {})
+        max_qty = max_data.get("maxInventoryQty", "N/A")
+        max_date = max_data.get("maxInventoryDate", "N/A")
         data["uk"].append({
             "Car Series": result["Car Series"],
             "Car Name": result["Car Name"],
             "InventoryQty": result["InventoryQty"],
-            "maxInventoryQty": str(max_qty) if max_qty != "N/A" else "N/A"
+            "maxInventoryQty": str(max_qty) if max_qty != "N/A" else "N/A",
+            "maxInventoryDate": max_date
         })
 
     with open(json_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"Дані збережено у {json_file}")
 
-# Завантаження URL із файлу
+# Завантаження URL
 def load_urls(file_path):
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -210,31 +213,24 @@ def load_urls(file_path):
 
 # Основна частина
 if __name__ == "__main__":
-    # Завантажуємо URL
+    print("Starting script...")
     urls_data = load_urls("urls.json")
-    url_groups = urls_data.get("us", [])
-    url_groups_uk = urls_data.get("uk", [])
+    print(f"Loaded URLs: {urls_data}")
 
-    # Обробляємо всі групи та збираємо результати
     all_results = []
-    for group in url_groups:
+    for group in urls_data.get("us", []):
         group_results = process_url_group(group["name"], group["urls"])
         all_results.extend(group_results)
 
-    # Оновлюємо CSV-файл
     update_csv_file(all_results, "inventory_data.csv")
 
-    # Обробляємо всі групи та збираємо результати для UK
     all_results_uk = []
-    for group in url_groups_uk:
+    for group in urls_data.get("uk", []):
         group_results_UK = process_url_group(group["name"], group["urls"])
         all_results_uk.extend(group_results_UK)
 
-    # Оновлюємо CSV-файл для UK
     update_csv_file(all_results_uk, "inventory_data_UK.csv")
 
-    # Оновлюємо максимальні кількості
+    print("Generating inventory.json...")
     max_inventory = update_max_inventory(all_results, all_results_uk, "max_inventory.json")
-
-    # Зберігаємо у JSON
     save_to_json(all_results, all_results_uk, max_inventory, "inventory.json")
