@@ -16,13 +16,17 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.11'  # Змінено на Python 3.11
+        python-version: '3.11'  # Чітко вказано Python 3.11
+
+    - name: Check Python version
+      run: python --version  # Дебаг: перевіряємо версію Python
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        pip list  # Показати встановлені пакети для дебагу
+        pip list  # Показати встановлені пакети
+      continue-on-error: false  # Зупиняємо, якщо помилка
 
     - name: List files
       run: ls -la
