@@ -44,3 +44,34 @@ If you’d like to run this project locally or contribute to its development, fo
    ```bash
    git clone https://github.com/shady333/HWinventory.git
    cd HWinventory
+   ```
+
+2. **Install Dependencies**:
+   Ensure you have Python 3.11+ installed, then install the required packages:
+   ```
+   pip install requests beautifulsoup4
+   ```
+   
+3. **Run the Script**:
+   The main script (script.py) scrapes inventory data and saves it to inventory.json.
+   ```
+   python script.py
+   ```
+   
+## Acknowledgments
+A special thanks to Grok, created by xAI, for assisting with the development of this project. Grok helped with coding, debugging, and adding features like the 3D models section and social media integration. This project wouldn’t be the same without their support! 
+
+## License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it, but please provide credit to the original author.
+
+## Contact
+For any questions or suggestions, reach out to me on X or Instagram:
+
+X: [@DGarageDiecast](https://x.com/DGarageDiecast)
+
+Instagram: [@dgarage_diecast](https://www.instagram.com/dgarage_diecast/) 
+
+
+
+
