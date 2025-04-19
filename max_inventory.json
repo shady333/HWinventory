@@ -3,8 +3,8 @@
     "Mattel Creations:Hot Wheels x Mercedes-Benz Project G-class Past II Future designed by NIGO": {
       "Car Series": "Mattel Creations",
       "Car Name": "Hot Wheels x Mercedes-Benz Project G-class Past II Future designed by NIGO",
-      "maxInventoryQty": 11517,
-      "maxInventoryDate": "18.04.2025 16:00 UTC"
+      "maxInventoryQty": 11500,
+      "maxInventoryDate": ""
     },
     "Mattel Creations:Hot Wheels Wrangler ’85 Ford Bronco": {
       "Car Series": "Mattel Creations",
@@ -124,7 +124,7 @@
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "19.04.2025 10:29 UTC"
+      "maxInventoryDate": "19.04.2025 16:24 UTC"
     },
     "Premium:Hot Wheels Premium Fast & Furious Nissan 37OZ": {
       "Car Series": "Premium",
@@ -245,6 +245,12 @@
       "Car Name": "Hot Wheels F1 Car: Hot Wheels Collectors Formula 1 Vehicle",
       "maxInventoryQty": 1,
       "maxInventoryDate": ""
+    },
+    "Elite 64:Hot Wheels Elite 64 Porsche 911 GT2 EVO 993": {
+      "Car Series": "Elite 64",
+      "Car Name": "Hot Wheels Elite 64 Porsche 911 GT2 EVO 993",
+      "maxInventoryQty": 0,
+      "maxInventoryDate": "19.04.2025 16:24 UTC"
     }
   },
   "uk": {
@@ -276,7 +282,7 @@
       "Car Series": "UK RLC",
       "Car Name": "Hot Wheels Collectors RLC Exclusive 2006 BMW M3",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "19.04.2025 10:29 UTC"
+      "maxInventoryDate": "19.04.2025 16:24 UTC"
     },
     "UK RLC:RLC Exclusive '71 Lamborghini Miura P400 SV": {
       "Car Series": "UK RLC",
@@ -342,7 +348,7 @@
       "Car Series": "UK Elite 64",
       "Car Name": "Elite 64 Series Land Rover Defender 90 Pickup – Mattel Creations",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "19.04.2025 10:29 UTC"
+      "maxInventoryDate": "19.04.2025 16:24 UTC"
     }
   }
 }
