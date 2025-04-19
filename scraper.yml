@@ -33,7 +33,7 @@ jobs:
       run: |
         git config --global user.name 'GitHub Action'
         git config --global user.email 'action@github.com'
-        git add inventory_data.csv inventory_data_UK.csv inventory.json urls.json
+        git add inventory_data.csv inventory_data_UK.csv inventory.json urls.json max_inventory.json
         git commit -m 'Update inventory files'
         git push
       continue-on-error: true
