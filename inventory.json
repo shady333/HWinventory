@@ -1,10 +1,10 @@
 {
-  "date": "19.04.2025 11:54 UTC",
+  "date": "19.04.2025 10:29 UTC",
   "us": [
     {
       "Car Series": "Mattel Creations",
       "Car Name": "Hot Wheels x Mercedes-Benz Project G-class Past II Future designed by NIGO",
-      "InventoryQty": "388",
+      "InventoryQty": "374",
       "maxInventoryQty": "388",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -21,6 +21,20 @@
       "InventoryQty": "1818",
       "maxInventoryQty": "1818",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
+    },
+    {
+      "Car Series": "Mattel Creations",
+      "Car Name": "Hot Wheels x Ferrari Heritage Set",
+      "InventoryQty": "SOLD OUT",
+      "maxInventoryQty": "20003",
+      "maxInventoryDate": ""
+    },
+    {
+      "Car Series": "Mattel Creations",
+      "Car Name": "Hot Wheels F1 Car: Hot Wheels Collectors Formula 1 Vehicle",
+      "InventoryQty": "SOLD OUT",
+      "maxInventoryQty": "1",
+      "maxInventoryDate": ""
     },
     {
       "Car Series": "RLC",
@@ -146,7 +160,7 @@
       "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "19.04.2025 11:54 UTC"
+      "maxInventoryDate": "19.04.2025 10:29 UTC"
     },
     {
       "Car Series": "Premium",
@@ -270,7 +284,7 @@
     {
       "Car Series": "Matchbox",
       "Car Name": "Matchbox 1962 Plymouth Savoy – Mattel Creations",
-      "InventoryQty": "151",
+      "InventoryQty": "150",
       "maxInventoryQty": "151",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     }
@@ -309,7 +323,7 @@
       "Car Name": "Hot Wheels Collectors RLC Exclusive 2006 BMW M3",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "19.04.2025 11:54 UTC"
+      "maxInventoryDate": "19.04.2025 10:29 UTC"
     },
     {
       "Car Series": "UK RLC",
@@ -386,7 +400,7 @@
       "Car Name": "Elite 64 Series Land Rover Defender 90 Pickup – Mattel Creations",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "19.04.2025 11:54 UTC"
+      "maxInventoryDate": "19.04.2025 10:29 UTC"
     }
   ]
 }

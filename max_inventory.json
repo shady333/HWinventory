@@ -124,7 +124,7 @@
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "19.04.2025 11:54 UTC"
+      "maxInventoryDate": "19.04.2025 10:29 UTC"
     },
     "Premium:Hot Wheels Premium Fast & Furious Nissan 37OZ": {
       "Car Series": "Premium",
@@ -233,6 +233,18 @@
       "Car Name": "Matchbox 1962 Plymouth Savoy – Mattel Creations",
       "maxInventoryQty": 151,
       "maxInventoryDate": "19.04.2025 11:54 UTC"
+    },
+    "Mattel Creations:Hot Wheels x Ferrari Heritage Set": {
+      "Car Series": "Mattel Creations",
+      "Car Name": "Hot Wheels x Ferrari Heritage Set",
+      "maxInventoryQty": 20003,
+      "maxInventoryDate": ""
+    },
+    "Mattel Creations:Hot Wheels F1 Car: Hot Wheels Collectors Formula 1 Vehicle": {
+      "Car Series": "Mattel Creations",
+      "Car Name": "Hot Wheels F1 Car: Hot Wheels Collectors Formula 1 Vehicle",
+      "maxInventoryQty": 1,
+      "maxInventoryDate": ""
     }
   },
   "uk": {
@@ -264,7 +276,7 @@
       "Car Series": "UK RLC",
       "Car Name": "Hot Wheels Collectors RLC Exclusive 2006 BMW M3",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "19.04.2025 11:54 UTC"
+      "maxInventoryDate": "19.04.2025 10:29 UTC"
     },
     "UK RLC:RLC Exclusive '71 Lamborghini Miura P400 SV": {
       "Car Series": "UK RLC",
@@ -330,7 +342,7 @@
       "Car Series": "UK Elite 64",
       "Car Name": "Elite 64 Series Land Rover Defender 90 Pickup – Mattel Creations",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "19.04.2025 11:54 UTC"
+      "maxInventoryDate": "19.04.2025 10:29 UTC"
     }
   }
 }
