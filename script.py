@@ -42,6 +42,8 @@ def get_page_data(url):
             inventory_qty_int = int(inventory_qty_value)
             if inventory_qty_int < 0:
                 inventory_qty_value = "SOLD OUT"
+            else:
+                inventory_qty_value = str(inventory_qty_int)  # Зберігаємо як рядок для консистентності
 
         return {
             'title': title,
@@ -113,26 +115,86 @@ def update_csv_file(all_results, csv_file):
     df.to_csv(csv_file, index=False)
     print(f"\nДані збережено у {csv_file}")
 
+# Функція для завантаження максимальних кількостей
+def load_max_inventory(file_path):
+    try:
+        if os.path.exists(file_path):
+            with open(file_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        return {"us": {}, "uk": {}}
+    except Exception as e:
+        print(f"Error loading max inventory: {str(e)}")
+        return {"us": {}, "uk": {}}
+
+# Функція для оновлення максимальних кількостей
+def update_max_inventory(all_results, all_results_uk, max_file):
+    max_inventory = load_max_inventory(max_file)
+    
+    # Оновлюємо US
+    for result in all_results:
+        key = f"{result['Car Series']}:{result['Car Name']}"
+        current_qty = result['InventoryQty']
+        if current_qty.isdigit():  # Перевіряємо, чи це число
+            current_qty_int = int(current_qty)
+            max_qty = max_inventory["us"].get(key, {}).get("maxInventoryQty", 0)
+            if current_qty_int > max_qty:
+                max_inventory["us"][key] = {
+                    "Car Series": result["Car Series"],
+                    "Car Name": result["Car Name"],
+                    "maxInventoryQty": current_qty_int
+                }
+
+    # Оновлюємо UK
+    for result in all_results_uk:
+        key = f"{result['Car Series']}:{result['Car Name']}"
+        current_qty = result['InventoryQty']
+        if current_qty.isdigit():
+            current_qty_int = int(current_qty)
+            max_qty = max_inventory["uk"].get(key, {}).get("maxInventoryQty", 0)
+            if current_qty_int > max_qty:
+                max_inventory["uk"][key] = {
+                    "Car Series": result["Car Series"],
+                    "Car Name": result["Car Name"],
+                    "maxInventoryQty": current_qty_int
+                }
+
+    # Зберігаємо оновлені максимуми
+    with open(max_file, 'w', encoding='utf-8') as f:
+        json.dump(max_inventory, f, ensure_ascii=False, indent=2)
+    print(f"Максимальні кількості збережено у {max_file}")
+    return max_inventory
+
 # Функція для збереження результатів у JSON
-def save_to_json(all_results, all_results_uk, json_file):
+def save_to_json(all_results, all_results_uk, max_inventory, json_file):
     current_date = datetime.now().strftime("%d.%m.%Y")
     data = {
         "date": current_date,
-        "us": [
-            {
-                "Car Series": r["Car Series"],
-                "Car Name": r["Car Name"],
-                "InventoryQty": r["InventoryQty"]
-            } for r in all_results
-        ],
-        "uk": [
-            {
-                "Car Series": r["Car Series"],
-                "Car Name": r["Car Name"],
-                "InventoryQty": r["InventoryQty"]
-            } for r in all_results_uk
-        ]
+        "us": [],
+        "uk": []
     }
+
+    # Додаємо US дані
+    for result in all_results:
+        key = f"{result['Car Series']}:{result['Car Name']}"
+        max_qty = max_inventory["us"].get(key, {}).get("maxInventoryQty", "N/A")
+        data["us"].append({
+            "Car Series": result["Car Series"],
+            "Car Name": result["Car Name"],
+            "InventoryQty": result["InventoryQty"],
+            "maxInventoryQty": str(max_qty) if max_qty != "N/A" else "N/A"
+        })
+
+    # Додаємо UK дані
+    for result in all_results_uk:
+        key = f"{result['Car Series']}:{result['Car Name']}"
+        max_qty = max_inventory["uk"].get(key, {}).get("maxInventoryQty", "N/A")
+        data["uk"].append({
+            "Car Series": result["Car Series"],
+            "Car Name": result["Car Name"],
+            "InventoryQty": result["InventoryQty"],
+            "maxInventoryQty": str(max_qty) if max_qty != "N/A" else "N/A"
+        })
+
     with open(json_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"Дані збережено у {json_file}")
@@ -171,5 +233,8 @@ if __name__ == "__main__":
     # Оновлюємо CSV-файл для UK
     update_csv_file(all_results_uk, "inventory_data_UK.csv")
 
+    # Оновлюємо максимальні кількості
+    max_inventory = update_max_inventory(all_results, all_results_uk, "max_inventory.json")
+
     # Зберігаємо у JSON
-    save_to_json(all_results, all_results_uk, "inventory.json")
+    save_to_json(all_results, all_results_uk, max_inventory, "inventory.json")
