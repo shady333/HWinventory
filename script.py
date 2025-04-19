@@ -31,6 +31,8 @@ def get_page_data(url):
 
         script_tags = soup.find_all('script')
         inventory_qty_value = None
+        max_inventory_qty = None
+        is_negative = False
 
         for script in script_tags:
             script_content = script.text
@@ -51,22 +53,28 @@ def get_page_data(url):
             print("Inventory quantity not found in any script")
         else:
             inventory_qty_int = int(inventory_qty_value)
+            max_inventory_qty = abs(inventory_qty_int)  # Беремо додатнє значення
             if inventory_qty_int < 0:
                 inventory_qty_value = "SOLD OUT"
-                print("InventoryQty is negative, setting to SOLD OUT")
+                is_negative = True
+                print("InventoryQty is negative, setting to SOLD OUT, using absolute value for max")
             else:
                 inventory_qty_value = str(inventory_qty_int)
 
         return {
             'title': title,
-            'inventoryQty': inventory_qty_value
+            'inventoryQty': inventory_qty_value,
+            'maxInventoryQty': max_inventory_qty,
+            'isNegative': is_negative
         }
 
     except requests.RequestException as e:
         print(f"Request error: {str(e)}")
         return {
             'title': f"Error: {str(e)}",
-            'inventoryQty': "Error fetching data"
+            'inventoryQty': "Error fetching data",
+            'maxInventoryQty': None,
+            'isNegative': False
         }
 
 # Функція для обробки групи URL
@@ -84,7 +92,9 @@ def process_url_group(group_name, urls):
             results.append({
                 'Car Series': group_name,
                 'Car Name': result['title'],
-                'InventoryQty': result['inventoryQty']
+                'InventoryQty': result['inventoryQty'],
+                'maxInventoryQty': result['maxInventoryQty'],
+                'isNegative': result['isNegative']
             })
         except Exception as e:
             print(f"Error processing URL {url}: {str(e)}")
@@ -92,7 +102,9 @@ def process_url_group(group_name, urls):
             results.append({
                 'Car Series': group_name,
                 'Car Name': f"Error: {url}",
-                'InventoryQty': str(e)
+                'InventoryQty': str(e),
+                'maxInventoryQty': None,
+                'isNegative': False
             })
 
     headers = ["Title", "InventoryQty"]
@@ -149,14 +161,19 @@ def update_max_inventory(all_results, all_results_uk, max_file):
 
     for result in all_results:
         key = f"{result['Car Series']}:{result['Car Name']}"
-        current_qty = result['InventoryQty']
-        print(f"US - {key}: CurrentQty={current_qty}")
-        if current_qty.isdigit():
+        current_qty = result['maxInventoryQty']
+        is_negative = result['isNegative']
+        print(f"US - {key}: CurrentQty={current_qty}, IsNegative={is_negative}")
+        if current_qty is not None:  # Перевіряємо, чи є числове значення
             current_qty_int = int(current_qty)
             max_qty = max_inventory["us"].get(key, {}).get("maxInventoryQty", 0)
             max_date = max_inventory["us"].get(key, {}).get("maxInventoryDate", "N/A")
             update_needed = False
-            if max_qty == 0 or max_date == "N/A":
+            max_date_value = "" if is_negative else current_date
+            if is_negative:
+                update_needed = True
+                print(f"US - {key}: Negative inventory, setting maxInventoryQty and empty maxInventoryDate")
+            elif max_qty == 0 or max_date == "N/A":
                 update_needed = True
                 print(f"US - {key}: New record or N/A date, updating")
             elif current_qty_int > max_qty:
@@ -167,24 +184,29 @@ def update_max_inventory(all_results, all_results_uk, max_file):
                     "Car Series": result["Car Series"],
                     "Car Name": result["Car Name"],
                     "maxInventoryQty": current_qty_int,
-                    "maxInventoryDate": current_date
+                    "maxInventoryDate": max_date_value
                 }
-                print(f"Updated US - {key}: maxInventoryQty={current_qty_int}, maxInventoryDate={current_date}")
+                print(f"Updated US - {key}: maxInventoryQty={current_qty_int}, maxInventoryDate={max_date_value}")
             else:
                 print(f"No update for US - {key}: current_qty={current_qty_int} <= max_qty={max_qty}")
         else:
-            print(f"Skipping US - {key}: InventoryQty is not numeric ({current_qty})")
+            print(f"Skipping US - {key}: maxInventoryQty is None ({result['InventoryQty']})")
 
     for result in all_results_uk:
         key = f"{result['Car Series']}:{result['Car Name']}"
-        current_qty = result['InventoryQty']
-        print(f"UK - {key}: CurrentQty={current_qty}")
-        if current_qty.isdigit():
+        current_qty = result['maxInventoryQty']
+        is_negative = result['isNegative']
+        print(f"UK - {key}: CurrentQty={current_qty}, IsNegative={is_negative}")
+        if current_qty is not None:
             current_qty_int = int(current_qty)
             max_qty = max_inventory["uk"].get(key, {}).get("maxInventoryQty", 0)
             max_date = max_inventory["uk"].get(key, {}).get("maxInventoryDate", "N/A")
             update_needed = False
-            if max_qty == 0 or max_date == "N/A":
+            max_date_value = "" if is_negative else current_date
+            if is_negative:
+                update_needed = True
+                print(f"UK - {key}: Negative inventory, setting maxInventoryQty and empty maxInventoryDate")
+            elif max_qty == 0 or max_date == "N/A":
                 update_needed = True
                 print(f"UK - {key}: New record or N/A date, updating")
             elif current_qty_int > max_qty:
@@ -195,13 +217,13 @@ def update_max_inventory(all_results, all_results_uk, max_file):
                     "Car Series": result["Car Series"],
                     "Car Name": result["Car Name"],
                     "maxInventoryQty": current_qty_int,
-                    "maxInventoryDate": current_date
+                    "maxInventoryDate": max_date_value
                 }
-                print(f"Updated UK - {key}: maxInventoryQty={current_qty_int}, maxInventoryDate={current_date}")
+                print(f"Updated UK - {key}: maxInventoryQty={current_qty_int}, maxInventoryDate={max_date_value}")
             else:
                 print(f"No update for UK - {key}: current_qty={current_qty_int} <= max_qty={max_qty}")
         else:
-            print(f"Skipping UK - {key}: InventoryQty is not numeric ({current_qty})")
+            print(f"Skipping UK - {key}: maxInventoryQty is None ({result['InventoryQty']})")
 
     with open(max_file, 'w', encoding='utf-8') as f:
         json.dump(max_inventory, f, ensure_ascii=False, indent=2)
