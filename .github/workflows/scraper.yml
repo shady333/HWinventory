@@ -13,30 +13,20 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}  # Використовуємо вбудований токен
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
 
-    - name: Check Python version
-      run: python --version
-
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        pip list
-
-    - name: List files
-      run: ls -la
 
     - name: Run scraper
       run: python script.py
-
-    - name: Show inventory.json
-      run: cat inventory.json
 
     - name: Commit and push files
       run: |
@@ -45,4 +35,4 @@ jobs:
         git add inventory_data.csv inventory_data_UK.csv inventory.json urls.json max_inventory.json
         git commit -m 'Update inventory files' || echo "No changes to commit"
         git push
-      continue-on-error: true  # Залишаємо для дебагу
+      continue-on-error: true
