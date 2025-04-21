@@ -1,5 +1,5 @@
 {
-  "date": "21.04.2025 10:16 UTC",
+  "date": "21.04.2025 12:29 UTC",
   "us": [
     {
       "Car Series": "Mattel Creations",
@@ -46,28 +46,28 @@
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive 1995 Honda Integra Type R",
-      "InventoryQty": "2985",
+      "InventoryQty": "2977",
       "maxInventoryQty": "3147",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive '71 Lamborghini Miura P400 SV",
-      "InventoryQty": "3692",
+      "InventoryQty": "3690",
       "maxInventoryQty": "3735",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "RLC",
       "Car Name": "Hot Wheels RLC Exclusive ‘64 Dodge Power Wagon",
-      "InventoryQty": "10748",
+      "InventoryQty": "10747",
       "maxInventoryQty": "10773",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive Hot Wheels Kawa-Bug-A Membership Car – Mattel Creations",
-      "InventoryQty": "4218",
+      "InventoryQty": "4215",
       "maxInventoryQty": "4288",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -83,19 +83,19 @@
       "Car Name": "Hot Wheels Elite 64 Porsche 911 GT2 EVO 993",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "21.04.2025 10:16 UTC"
+      "maxInventoryDate": "21.04.2025 12:29 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Aston Martin Valkyrie",
-      "InventoryQty": "21051",
+      "InventoryQty": "21050",
       "maxInventoryQty": "21098",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 McLaren M6GT",
-      "InventoryQty": "24007",
+      "InventoryQty": "24006",
       "maxInventoryQty": "24036",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -116,7 +116,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 1990 BMW 318i Touring",
-      "InventoryQty": "27564",
+      "InventoryQty": "27562",
       "maxInventoryQty": "27591",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -144,7 +144,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Pandem Datsun 280ZX",
-      "InventoryQty": "7226",
+      "InventoryQty": "7225",
       "maxInventoryQty": "7251",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -167,7 +167,7 @@
       "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "21.04.2025 10:16 UTC"
+      "maxInventoryDate": "21.04.2025 12:29 UTC"
     },
     {
       "Car Series": "Premium",
@@ -186,7 +186,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Boulevard Lancia Delta Integralle Vehicle",
-      "InventoryQty": "555",
+      "InventoryQty": "554",
       "maxInventoryQty": "570",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -330,7 +330,7 @@
       "Car Name": "Hot Wheels Collectors RLC Exclusive 2006 BMW M3",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "21.04.2025 10:16 UTC"
+      "maxInventoryDate": "21.04.2025 12:29 UTC"
     },
     {
       "Car Series": "UK RLC",
@@ -342,7 +342,7 @@
     {
       "Car Series": "UK RLC",
       "Car Name": "RLC Exclusive 1986 Porsche 959",
-      "InventoryQty": "35",
+      "InventoryQty": "34",
       "maxInventoryQty": "46",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -350,14 +350,14 @@
       "Car Series": "UK Mattel Creations",
       "Car Name": "Hot Wheels x Mercedes-Benz Project G-class Past II Future designed by NIGO",
       "InventoryQty": "SOLD OUT",
-      "maxInventoryQty": "92",
+      "maxInventoryQty": "91",
       "maxInventoryDate": ""
     },
     {
       "Car Series": "UK Mattel Creations",
       "Car Name": "Hot Wheels x Ferrari Heritage Set",
       "InventoryQty": "SOLD OUT",
-      "maxInventoryQty": "837",
+      "maxInventoryQty": "836",
       "maxInventoryDate": ""
     },
     {
@@ -407,7 +407,7 @@
       "Car Name": "Elite 64 Series Land Rover Defender 90 Pickup – Mattel Creations",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "21.04.2025 10:16 UTC"
+      "maxInventoryDate": "21.04.2025 12:29 UTC"
     }
   ]
 }
