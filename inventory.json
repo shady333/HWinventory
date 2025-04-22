@@ -1,5 +1,5 @@
 {
-  "date": "22.04.2025 01:11 UTC",
+  "date": "22.04.2025 03:00 UTC",
   "us": [
     {
       "Car Series": "Mattel Creations",
@@ -46,14 +46,14 @@
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive 1995 Honda Integra Type R",
-      "InventoryQty": "2928",
+      "InventoryQty": "2921",
       "maxInventoryQty": "3147",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive '71 Lamborghini Miura P400 SV",
-      "InventoryQty": "3672",
+      "InventoryQty": "3670",
       "maxInventoryQty": "3735",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -67,7 +67,7 @@
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive Hot Wheels Kawa-Bug-A Membership Car – Mattel Creations",
-      "InventoryQty": "4202",
+      "InventoryQty": "4196",
       "maxInventoryQty": "4288",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -83,19 +83,19 @@
       "Car Name": "Hot Wheels Elite 64 Porsche 911 GT2 EVO 993",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "22.04.2025 01:11 UTC"
+      "maxInventoryDate": "22.04.2025 03:00 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Aston Martin Valkyrie",
-      "InventoryQty": "21043",
+      "InventoryQty": "21042",
       "maxInventoryQty": "21098",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 McLaren M6GT",
-      "InventoryQty": "24001",
+      "InventoryQty": "24000",
       "maxInventoryQty": "24036",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -123,14 +123,14 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Elite 64 Mod Shop '17 Toyota Tacoma – Hot Wheels Collectors",
-      "InventoryQty": "14109",
+      "InventoryQty": "14108",
       "maxInventoryQty": "14141",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Elite 64 Bugatti Type 59 – Hot Wheels Collectors",
-      "InventoryQty": "15033",
+      "InventoryQty": "15032",
       "maxInventoryQty": "15047",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -144,7 +144,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Pandem Datsun 280ZX",
-      "InventoryQty": "7218",
+      "InventoryQty": "7217",
       "maxInventoryQty": "7251",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -167,12 +167,12 @@
       "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "22.04.2025 01:11 UTC"
+      "maxInventoryDate": "22.04.2025 03:00 UTC"
     },
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Premium Fast & Furious Nissan 37OZ",
-      "InventoryQty": "3295",
+      "InventoryQty": "3294",
       "maxInventoryQty": "3313",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -228,7 +228,7 @@
     {
       "Car Series": "Matchbox",
       "Car Name": "Matchbox Collectors 1975 Range Rover",
-      "InventoryQty": "11096",
+      "InventoryQty": "11095",
       "maxInventoryQty": "11107",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -277,7 +277,7 @@
     {
       "Car Series": "Matchbox",
       "Car Name": "Matchbox 2021 Ford Bronco – Mattel Creations",
-      "InventoryQty": "3554",
+      "InventoryQty": "3553",
       "maxInventoryQty": "3556",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -330,7 +330,7 @@
       "Car Name": "Hot Wheels Collectors RLC Exclusive 2006 BMW M3",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "22.04.2025 01:11 UTC"
+      "maxInventoryDate": "22.04.2025 03:00 UTC"
     },
     {
       "Car Series": "UK RLC",
@@ -407,7 +407,7 @@
       "Car Name": "Elite 64 Series Land Rover Defender 90 Pickup – Mattel Creations",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "22.04.2025 01:11 UTC"
+      "maxInventoryDate": "22.04.2025 03:00 UTC"
     }
   ]
 }
