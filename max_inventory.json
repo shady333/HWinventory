@@ -124,7 +124,7 @@
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "22.04.2025 03:00 UTC"
+      "maxInventoryDate": "22.04.2025 04:18 UTC"
     },
     "Premium:Hot Wheels Premium Fast & Furious Nissan 37OZ": {
       "Car Series": "Premium",
@@ -250,7 +250,7 @@
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Porsche 911 GT2 EVO 993",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "22.04.2025 03:00 UTC"
+      "maxInventoryDate": "22.04.2025 04:18 UTC"
     }
   },
   "uk": {
@@ -282,7 +282,7 @@
       "Car Series": "UK RLC",
       "Car Name": "Hot Wheels Collectors RLC Exclusive 2006 BMW M3",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "22.04.2025 03:00 UTC"
+      "maxInventoryDate": "22.04.2025 04:18 UTC"
     },
     "UK RLC:RLC Exclusive '71 Lamborghini Miura P400 SV": {
       "Car Series": "UK RLC",
@@ -329,8 +329,8 @@
     "UK Elite 64:Hot Wheels Elite 64 McLaren M6GT": {
       "Car Series": "UK Elite 64",
       "Car Name": "Hot Wheels Elite 64 McLaren M6GT",
-      "maxInventoryQty": 888,
-      "maxInventoryDate": "19.04.2025 11:54 UTC"
+      "maxInventoryQty": 889,
+      "maxInventoryDate": "22.04.2025 04:18 UTC"
     },
     "UK Elite 64:Hot Wheels Elite 64 Series '21 Audi RS 7 Sportback": {
       "Car Series": "UK Elite 64",
@@ -348,7 +348,7 @@
       "Car Series": "UK Elite 64",
       "Car Name": "Elite 64 Series Land Rover Defender 90 Pickup – Mattel Creations",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "22.04.2025 03:00 UTC"
+      "maxInventoryDate": "22.04.2025 04:18 UTC"
     }
   }
 }
