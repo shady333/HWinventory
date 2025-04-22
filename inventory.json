@@ -1,5 +1,5 @@
 {
-  "date": "22.04.2025 04:18 UTC",
+  "date": "22.04.2025 06:21 UTC",
   "us": [
     {
       "Car Series": "Mattel Creations",
@@ -46,14 +46,14 @@
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive 1995 Honda Integra Type R",
-      "InventoryQty": "2915",
+      "InventoryQty": "2904",
       "maxInventoryQty": "3147",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive '71 Lamborghini Miura P400 SV",
-      "InventoryQty": "3668",
+      "InventoryQty": "3667",
       "maxInventoryQty": "3735",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -67,7 +67,7 @@
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive Hot Wheels Kawa-Bug-A Membership Car – Mattel Creations",
-      "InventoryQty": "4192",
+      "InventoryQty": "4185",
       "maxInventoryQty": "4288",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -83,19 +83,19 @@
       "Car Name": "Hot Wheels Elite 64 Porsche 911 GT2 EVO 993",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "22.04.2025 04:18 UTC"
+      "maxInventoryDate": "22.04.2025 06:21 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Aston Martin Valkyrie",
-      "InventoryQty": "21041",
+      "InventoryQty": "21038",
       "maxInventoryQty": "21098",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 McLaren M6GT",
-      "InventoryQty": "24000",
+      "InventoryQty": "23999",
       "maxInventoryQty": "24036",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -116,7 +116,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 1990 BMW 318i Touring",
-      "InventoryQty": "27555",
+      "InventoryQty": "27554",
       "maxInventoryQty": "27591",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -130,7 +130,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Elite 64 Bugatti Type 59 – Hot Wheels Collectors",
-      "InventoryQty": "15032",
+      "InventoryQty": "15031",
       "maxInventoryQty": "15047",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -144,7 +144,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Pandem Datsun 280ZX",
-      "InventoryQty": "7217",
+      "InventoryQty": "7216",
       "maxInventoryQty": "7251",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -167,7 +167,7 @@
       "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "22.04.2025 04:18 UTC"
+      "maxInventoryDate": "22.04.2025 06:21 UTC"
     },
     {
       "Car Series": "Premium",
@@ -179,14 +179,14 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Premium Car Culture 2-Pack '71 AMC Javelin & AMC Rebel Machine",
-      "InventoryQty": "2168",
+      "InventoryQty": "2166",
       "maxInventoryQty": "2219",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Boulevard Lancia Delta Integralle Vehicle",
-      "InventoryQty": "553",
+      "InventoryQty": "552",
       "maxInventoryQty": "570",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -221,7 +221,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Premium Car Culture 2-Pack Volkswagen Jetta MK3 & Volkswagen ID R",
-      "InventoryQty": "45",
+      "InventoryQty": "39",
       "maxInventoryQty": "79",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -242,7 +242,7 @@
     {
       "Car Series": "Matchbox",
       "Car Name": "Matchbox Collectors 1995 Volkswagen Golf Harlequin| Mattel Creations",
-      "InventoryQty": "6876",
+      "InventoryQty": "6875",
       "maxInventoryQty": "6884",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -256,7 +256,7 @@
     {
       "Car Series": "Matchbox",
       "Car Name": "Matchbox Collectors Mercedes-Benz SLR McLaren",
-      "InventoryQty": "2883",
+      "InventoryQty": "2881",
       "maxInventoryQty": "2885",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -330,7 +330,7 @@
       "Car Name": "Hot Wheels Collectors RLC Exclusive 2006 BMW M3",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "22.04.2025 04:18 UTC"
+      "maxInventoryDate": "22.04.2025 06:21 UTC"
     },
     {
       "Car Series": "UK RLC",
@@ -398,7 +398,7 @@
     {
       "Car Series": "UK Elite 64",
       "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
-      "InventoryQty": "53",
+      "InventoryQty": "52",
       "maxInventoryQty": "54",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -407,7 +407,7 @@
       "Car Name": "Elite 64 Series Land Rover Defender 90 Pickup – Mattel Creations",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "22.04.2025 04:18 UTC"
+      "maxInventoryDate": "22.04.2025 06:21 UTC"
     }
   ]
 }
