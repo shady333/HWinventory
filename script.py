@@ -50,11 +50,18 @@ def get_page_data(url):
             else:
                 inventory_qty_value = str(inventory_qty_int)
 
+        try:
+            filename = re.search(r'products/(.+)', url).group(1) + ".png"
+        except (AttributeError, IndexError):
+            filename = ""
+
         return {
             'title': title,
             'inventoryQty': inventory_qty_value,
             'maxInventoryQty': max_inventory_qty,
-            'isNegative': is_negative
+            'isNegative': is_negative,
+            'linkUrl': url,
+            'imgSrc': filename
         }
 
     except requests.RequestException as e:
@@ -62,7 +69,9 @@ def get_page_data(url):
             'title': f"Error: {str(e)}",
             'inventoryQty': "Error fetching data",
             'maxInventoryQty': None,
-            'isNegative': False
+            'isNegative': False,
+            'linkUrl': None,
+            'imgSrc': None
         }
 
 def process_url_group(group_name, urls):
@@ -75,7 +84,9 @@ def process_url_group(group_name, urls):
                 'Car Name': result['title'],
                 'InventoryQty': result['inventoryQty'],
                 'maxInventoryQty': result['maxInventoryQty'],
-                'isNegative': result['isNegative']
+                'isNegative': result['isNegative'],
+                'linkUrl': result['linkUrl'],
+                'imgSrc': result['imgSrc'],
             })
         except Exception as e:
             results.append({
@@ -83,7 +94,9 @@ def process_url_group(group_name, urls):
                 'Car Name': f"Error: {url}",
                 'InventoryQty': str(e),
                 'maxInventoryQty': None,
-                'isNegative': False
+                'isNegative': False,
+                'linkUrl': None,
+                'imgSrc': None
             })
     return results
 
