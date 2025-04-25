@@ -21,7 +21,7 @@
     "RLC:RLC Exclusive 1986 Porsche 959": {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive 1986 Porsche 959",
-      "maxInventoryQty": 35766,
+      "maxInventoryQty": 35764,
       "maxInventoryDate": ""
     },
     "RLC:RLC Exclusive 1995 Honda Integra Type R": {
@@ -124,7 +124,7 @@
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "25.04.2025 03:03 UTC"
+      "maxInventoryDate": "25.04.2025 04:18 UTC"
     },
     "Premium:Hot Wheels Premium Fast & Furious Nissan 37OZ": {
       "Car Series": "Premium",
@@ -250,7 +250,7 @@
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Porsche 911 GT2 EVO 993",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "25.04.2025 03:03 UTC"
+      "maxInventoryDate": "25.04.2025 04:18 UTC"
     }
   },
   "uk": {
@@ -282,7 +282,7 @@
       "Car Series": "UK RLC",
       "Car Name": "Hot Wheels Collectors RLC Exclusive 2006 BMW M3",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "25.04.2025 03:03 UTC"
+      "maxInventoryDate": "25.04.2025 04:18 UTC"
     },
     "UK RLC:RLC Exclusive '71 Lamborghini Miura P400 SV": {
       "Car Series": "UK RLC",
