@@ -1,5 +1,5 @@
 {
-  "date": "26.04.2025 08:17 UTC",
+  "date": "26.04.2025 10:14 UTC",
   "us": [
     {
       "Car Series": "Mattel Creations",
@@ -41,7 +41,7 @@
       "Car Name": "Hot Wheels RLC Exclusive 1969 Dodge Charger R/T",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "26.04.2025 08:17 UTC"
+      "maxInventoryDate": "26.04.2025 10:14 UTC"
     },
     {
       "Car Series": "RLC",
@@ -53,7 +53,7 @@
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive 1995 Honda Integra Type R",
-      "InventoryQty": "2556",
+      "InventoryQty": "2553",
       "maxInventoryQty": "3147",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -87,24 +87,24 @@
     },
     {
       "Car Series": "Elite 64",
-      "Car Name": "Hot Wheels Elite 64 Porsche 911 GT2 EVO 993",
-      "InventoryQty": "0",
-      "maxInventoryQty": "0",
-      "maxInventoryDate": "26.04.2025 08:17 UTC"
+      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-elite64-porsche-911-gt2-evo-993-hwr94",
+      "InventoryQty": "Error fetching data",
+      "maxInventoryQty": "N/A",
+      "maxInventoryDate": "N/A"
     },
     {
       "Car Series": "Elite 64",
-      "Car Name": "Hot Wheels Elite 64 Aston Martin Valkyrie",
-      "InventoryQty": "20942",
-      "maxInventoryQty": "21098",
-      "maxInventoryDate": "19.04.2025 11:54 UTC"
+      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-elite-64-aston-martin-valkyrie-hwr91",
+      "InventoryQty": "Error fetching data",
+      "maxInventoryQty": "N/A",
+      "maxInventoryDate": "N/A"
     },
     {
       "Car Series": "Elite 64",
-      "Car Name": "Hot Wheels Elite 64 McLaren M6GT",
-      "InventoryQty": "23956",
-      "maxInventoryQty": "24036",
-      "maxInventoryDate": "19.04.2025 11:54 UTC"
+      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-elite-64-mclaren-m6gt-hwg05",
+      "InventoryQty": "Error fetching data",
+      "maxInventoryQty": "N/A",
+      "maxInventoryDate": "N/A"
     },
     {
       "Car Series": "Elite 64",

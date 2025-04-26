@@ -7,21 +7,22 @@ Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.m
 Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/elite-64-series-21-audi-rs-7-sportback-hgw11,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Error fetching data
 Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/elite-64-series-land-rover-defender-90-pickup-hgw12,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Error fetching data
 Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-e64-79-toyota-hilux-hwr90,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Error fetching data
-Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-elite-64-aston-martin-valkyrie-hwr91,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-elite-64-aston-martin-valkyrie-hwr91,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Error fetching data
 Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-elite-64-bmw-318i-e21-hnj60,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Error fetching data
 Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-elite-64-bugatti-type-59-hnj62,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Error fetching data
-Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-elite-64-mclaren-m6gt-hwg05,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-elite-64-mclaren-m6gt-hwg05,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Error fetching data
 Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-elite-64-pandem-nissan-280zx-hnj59,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Error fetching data
 Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-elite-64-porsche-928-safari-hnj58,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Error fetching data
 Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-elite-modified-69-ford-mustang-hgw13,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Error fetching data
 Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-elite64-94-land-rover-discovery-hnj65,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Error fetching data
+Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-elite64-porsche-911-gt2-evo-993-hwr94,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Error fetching data
 Elite 64,Hot Wheels Elite 64 1989 Toyota HiLux Stadium Truck,37175,37161,37146,37142,37132,37122,37113,N/A
 Elite 64,Hot Wheels Elite 64 1990 BMW 318i Touring,27586,27571,27558,27549,27536,27511,27502,N/A
-Elite 64,Hot Wheels Elite 64 Aston Martin Valkyrie,21084,21060,21044,21022,20995,20970,20950,20942
-Elite 64,Hot Wheels Elite 64 McLaren M6GT,24024,24015,24002,23985,23982,23974,23960,23956
+Elite 64,Hot Wheels Elite 64 Aston Martin Valkyrie,21084,21060,21044,21022,20995,20970,20950,N/A
+Elite 64,Hot Wheels Elite 64 McLaren M6GT,24024,24015,24002,23985,23982,23974,23960,N/A
 Elite 64,Hot Wheels Elite 64 Mod Shop '94 Land Rover Discovery,28788,28787,28779,28777,28773,28771,28767,N/A
 Elite 64,Hot Wheels Elite 64 Pandem Datsun 280ZX,7245,7233,7219,7199,7187,7172,7159,N/A
-Elite 64,Hot Wheels Elite 64 Porsche 911 GT2 EVO 993,0,0,0,0,0,0,0,0
+Elite 64,Hot Wheels Elite 64 Porsche 911 GT2 EVO 993,0,0,0,0,0,0,0,N/A
 Elite 64,Hot Wheels Elite 64 Scania 770 S,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT
 Elite 64,Hot Wheels Elite 64 Series '21 Audi RS 7 Sportback,31169,31160,31156,31151,31146,31143,31140,N/A
 Elite 64,Hot Wheels Elite 64 Series Modified ’69 Ford Mustang,0,0,0,0,0,0,0,N/A
@@ -70,5 +71,5 @@ RLC,Hot Wheels RLC Exclusive 1969 Dodge Charger R/T,N/A,N/A,N/A,N/A,N/A,N/A,0,0
 RLC,Hot Wheels RLC Exclusive ‘64 Dodge Power Wagon,10769,10758,10744,10728,10718,10706,10694,10691
 RLC,RLC Exclusive '71 Lamborghini Miura P400 SV,3721,3703,3679,3654,3641,3623,3602,3589
 RLC,RLC Exclusive 1986 Porsche 959,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT
-RLC,RLC Exclusive 1995 Honda Integra Type R,3100,3022,2939,2835,2766,2687,2595,2556
+RLC,RLC Exclusive 1995 Honda Integra Type R,3100,3022,2939,2835,2766,2687,2595,2553
 RLC,RLC Exclusive Hot Wheels Kawa-Bug-A Membership Car – Mattel Creations,4274,4246,4203,4174,4147,4115,4058,4027
