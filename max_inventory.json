@@ -4,7 +4,9 @@
       "Car Series": "Mattel Creations",
       "Car Name": "Hot Wheels x Mercedes-Benz Project G-class Past II Future designed by NIGO",
       "maxInventoryQty": 11500,
-      "maxInventoryDate": ""
+      "maxInventoryDate": "",
+      "linkUrl": "https://creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31",
+      "imgSrc": "hot-wheels-x-mercedes-benz-past-ii-future-jgk31.png"
     },
     "Mattel Creations:Hot Wheels Wrangler ’85 Ford Bronco": {
       "Car Series": "Mattel Creations",
@@ -22,7 +24,9 @@
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive 1986 Porsche 959",
       "maxInventoryQty": 35765,
-      "maxInventoryDate": ""
+      "maxInventoryDate": "",
+      "linkUrl": "https://creations.mattel.com/products/hot-wheels-rlc-exclusive-porsche-959-jcp15",
+      "imgSrc": "hot-wheels-rlc-exclusive-porsche-959-jcp15.png"
     },
     "RLC:RLC Exclusive 1995 Honda Integra Type R": {
       "Car Series": "RLC",
@@ -52,7 +56,9 @@
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Scania 770 S",
       "maxInventoryQty": 30083,
-      "maxInventoryDate": ""
+      "maxInventoryDate": "",
+      "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite64-scania-770-s-tractor-trailer-hwr95",
+      "imgSrc": "hot-wheels-elite64-scania-770-s-tractor-trailer-hwr95.png"
     },
     "Elite 64:Hot Wheels Elite 64 Aston Martin Valkyrie": {
       "Car Series": "Elite 64",
@@ -238,25 +244,33 @@
       "Car Series": "Mattel Creations",
       "Car Name": "Hot Wheels x Ferrari Heritage Set",
       "maxInventoryQty": 20003,
-      "maxInventoryDate": ""
+      "maxInventoryDate": "",
+      "linkUrl": "https://creations.mattel.com/products/hot-wheels-x-ferrari-heritage-set-jdk37",
+      "imgSrc": "hot-wheels-x-ferrari-heritage-set-jdk37.png"
     },
     "Mattel Creations:Hot Wheels F1 Car: Hot Wheels Collectors Formula 1 Vehicle": {
       "Car Series": "Mattel Creations",
       "Car Name": "Hot Wheels F1 Car: Hot Wheels Collectors Formula 1 Vehicle",
       "maxInventoryQty": 1,
-      "maxInventoryDate": ""
+      "maxInventoryDate": "",
+      "linkUrl": "https://creations.mattel.com/products/hot-wheels-f1-jgn95",
+      "imgSrc": "hot-wheels-f1-jgn95.png"
     },
     "Elite 64:Hot Wheels Elite 64 Porsche 911 GT2 EVO 993": {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Porsche 911 GT2 EVO 993",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "26.04.2025 06:19 UTC"
+      "maxInventoryDate": "26.04.2025 08:17 UTC",
+      "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite64-porsche-911-gt2-evo-993-hwr94",
+      "imgSrc": "hot-wheels-elite64-porsche-911-gt2-evo-993-hwr94.png"
     },
     "RLC:Hot Wheels RLC Exclusive 1969 Dodge Charger R/T": {
       "Car Series": "RLC",
       "Car Name": "Hot Wheels RLC Exclusive 1969 Dodge Charger R/T",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "26.04.2025 06:19 UTC"
+      "maxInventoryDate": "26.04.2025 08:17 UTC",
+      "linkUrl": "https://creations.mattel.com/products/hot-wheels-rlc-1969-dodge-charger-rt-jcp32",
+      "imgSrc": "hot-wheels-rlc-1969-dodge-charger-rt-jcp32.png"
     }
   },
   "uk": {
