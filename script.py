@@ -160,7 +160,9 @@ def update_max_inventory(all_results, all_results_uk, max_file):
                     "Car Series": result["Car Series"],
                     "Car Name": result["Car Name"],
                     "maxInventoryQty": current_qty_int,
-                    "maxInventoryDate": max_date_value
+                    "maxInventoryDate": max_date_value,
+                    "linkUrl": result['linkUrl'],
+                    "imgSrc": result['imgSrc']
                 }
 
     for result in all_results_uk:
@@ -184,7 +186,9 @@ def update_max_inventory(all_results, all_results_uk, max_file):
                     "Car Series": result["Car Series"],
                     "Car Name": result["Car Name"],
                     "maxInventoryQty": current_qty_int,
-                    "maxInventoryDate": max_date_value
+                    "maxInventoryDate": max_date_value,
+                    "linkUrl": result['linkUrl'],
+                    "imgSrc": result['imgSrc']
                 }
 
     with open(max_file, 'w', encoding='utf-8') as f:
