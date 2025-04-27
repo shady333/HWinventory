@@ -1,5 +1,5 @@
 {
-  "date": "27.04.2025 06:20 UTC",
+  "date": "27.04.2025 08:17 UTC",
   "us": [
     {
       "Car Series": "Mattel Creations",
@@ -39,7 +39,7 @@
     {
       "Car Series": "RLC",
       "Car Name": "Hot Wheels RLC Exclusive 1969 Dodge Charger R/T",
-      "InventoryQty": "27550",
+      "InventoryQty": "25501",
       "maxInventoryQty": "27550",
       "maxInventoryDate": "27.04.2025 04:17 UTC"
     },
@@ -53,7 +53,7 @@
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive 1995 Honda Integra Type R",
-      "InventoryQty": "2499",
+      "InventoryQty": "2497",
       "maxInventoryQty": "3147",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -90,26 +90,26 @@
       "Car Name": "Hot Wheels Elite 64 Porsche 911 GT2 EVO 993",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "27.04.2025 06:20 UTC"
+      "maxInventoryDate": "27.04.2025 08:17 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Aston Martin Valkyrie",
-      "InventoryQty": "20920",
+      "InventoryQty": "20919",
       "maxInventoryQty": "21098",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 McLaren M6GT",
-      "InventoryQty": "23945",
+      "InventoryQty": "23944",
       "maxInventoryQty": "24036",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 1989 Toyota HiLux Stadium Truck",
-      "InventoryQty": "37107",
+      "InventoryQty": "37106",
       "maxInventoryQty": "37181",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -137,28 +137,28 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Elite 64 Bugatti Type 59 – Hot Wheels Collectors",
-      "InventoryQty": "15007",
+      "InventoryQty": "15005",
       "maxInventoryQty": "15047",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Elite 64 Porsche 928 Safari| Mattel Creations",
-      "InventoryQty": "45602",
+      "InventoryQty": "45601",
       "maxInventoryQty": "45653",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Pandem Datsun 280ZX",
-      "InventoryQty": "7147",
+      "InventoryQty": "7146",
       "maxInventoryQty": "7251",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Series '21 Audi RS 7 Sportback",
-      "InventoryQty": "31133",
+      "InventoryQty": "31132",
       "maxInventoryQty": "31173",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -174,7 +174,7 @@
       "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "27.04.2025 06:20 UTC"
+      "maxInventoryDate": "27.04.2025 08:17 UTC"
     },
     {
       "Car Series": "Premium",
@@ -256,7 +256,7 @@
     {
       "Car Series": "Matchbox",
       "Car Name": "Matchbox 1970 Datsun 510 Rally",
-      "InventoryQty": "19831",
+      "InventoryQty": "19830",
       "maxInventoryQty": "19835",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -337,7 +337,7 @@
       "Car Name": "Hot Wheels Collectors RLC Exclusive 2006 BMW M3",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "27.04.2025 06:20 UTC"
+      "maxInventoryDate": "27.04.2025 08:17 UTC"
     },
     {
       "Car Series": "UK RLC",
@@ -384,7 +384,7 @@
     {
       "Car Series": "UK Elite 64",
       "Car Name": "Hot Wheels Elite 64 Aston Martin Valkyrie",
-      "InventoryQty": "243",
+      "InventoryQty": "242",
       "maxInventoryQty": "256",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -398,7 +398,7 @@
     {
       "Car Series": "UK Elite 64",
       "Car Name": "Hot Wheels Elite 64 Series '21 Audi RS 7 Sportback",
-      "InventoryQty": "46",
+      "InventoryQty": "45",
       "maxInventoryQty": "56",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
