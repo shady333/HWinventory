@@ -5,17 +5,31 @@ import pandas as pd
 from datetime import datetime
 import os
 import json
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
+import requests.exceptions
+import time
+from fake_useragent import UserAgent
 
 def get_page_data(url):
+    @retry(
+        stop=stop_after_attempt(3),  # Максимум 3 спроби
+        wait=wait_exponential(multiplier=1, min=4, max=10),  # Експоненційна затримка від 4 до 10 секунд
+        retry=retry_if_exception_type(requests.exceptions.HTTPError)
+    )
+    def fetch_page(url, headers):
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        return response
+
     try:
+        ua = UserAgent()
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'User-Agent': ua.random,
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.5',
             'Referer': 'https://creations.mattel.com/'
         }
-        response = requests.get(url, headers=headers)
-        response.raise_for_status()
+        response = fetch_page(url, headers)
 
         soup = BeautifulSoup(response.text, 'html.parser')
         title_tag = soup.find('title')
@@ -64,13 +78,24 @@ def get_page_data(url):
             'imgSrc': filename
         }
 
+    except requests.exceptions.HTTPError as e:
+        if e.response.status_code == 429:
+            print(f"Помилка 429 для {url}. Спроби вичерпано.")
+        return {
+            'title': f"Error: {str(e)}",
+            'inventoryQty': f"Error: {str(e)}",
+            'maxInventoryQty': None,
+            'isNegative': False,
+            'linkUrl': url,
+            'imgSrc': None
+        }
     except requests.RequestException as e:
         return {
             'title': f"Error: {str(e)}",
-            'inventoryQty': "Error fetching data",
+            'inventoryQty': f"Error: {str(e)}",
             'maxInventoryQty': None,
             'isNegative': False,
-            'linkUrl': None,
+            'linkUrl': url,
             'imgSrc': None
         }
 
@@ -88,6 +113,7 @@ def process_url_group(group_name, urls):
                 'linkUrl': result['linkUrl'],
                 'imgSrc': result['imgSrc'],
             })
+            time.sleep(1)  # Затримка 1 секунда між запитами
         except Exception as e:
             results.append({
                 'Car Series': group_name,
@@ -101,6 +127,12 @@ def process_url_group(group_name, urls):
     return results
 
 def update_csv_file(all_results, csv_file):
+    # Перевіряємо, чи є помилка 429
+    for result in all_results:
+        if "Error: 429" in result["InventoryQty"] or "Error: 429" in result["Car Name"]:
+            print(f"Помилка 429 виявлена для {result['Car Name']}. Пропускаємо збереження CSV.")
+            return  # Не зберігаємо CSV
+
     current_date = datetime.now().strftime("%d.%m.%Y")
     if os.path.exists(csv_file):
         df = pd.read_csv(csv_file)
@@ -138,6 +170,12 @@ def load_max_inventory(file_path):
 def update_max_inventory(all_results, all_results_uk, max_file):
     max_inventory = load_max_inventory(max_file)
     current_date = datetime.now().strftime("%d.%m.%Y %H:%M UTC")
+
+    # Перевіряємо, чи є помилка 429
+    for result in all_results + all_results_uk:
+        if "Error: 429" in result["InventoryQty"] or "Error: 429" in result["Car Name"]:
+            print(f"Помилка 429 виявлена для {result['linkUrl']}. Пропускаємо оновлення max_inventory.")
+            return max_inventory  # Не оновлюємо, повертаємо поточний max_inventory
 
     for result in all_results:
         key = f"{result['Car Series']}:{result['Car Name']}"
@@ -196,6 +234,12 @@ def update_max_inventory(all_results, all_results_uk, max_file):
     return max_inventory
 
 def save_to_json(all_results, all_results_uk, max_inventory, json_file):
+    # Перевіряємо, чи є помилка 429 у результатах
+    for result in all_results + all_results_uk:
+        if "Error: 429" in result["InventoryQty"] or "Error: 429" in result["Car Name"]:
+            print(f"Помилка 429 виявлена для {result['linkUrl']}. Пропускаємо збереження JSON.")
+            return  # Не зберігаємо файл, якщо є помилка 429
+
     current_date = datetime.now().strftime("%d.%m.%Y %H:%M UTC")
     data = {
         "date": current_date,
