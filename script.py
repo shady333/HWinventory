@@ -213,7 +213,9 @@ def save_to_json(all_results, all_results_uk, max_inventory, json_file):
             "Car Name": result["Car Name"],
             "InventoryQty": result["InventoryQty"],
             "maxInventoryQty": str(max_qty) if max_qty != "N/A" else "N/A",
-            "maxInventoryDate": max_date
+            "maxInventoryDate": max_date,
+            "linkUrl": result['linkUrl'],
+            "imgSrc": result['imgSrc']
         })
 
     for result in all_results_uk:
@@ -226,7 +228,9 @@ def save_to_json(all_results, all_results_uk, max_inventory, json_file):
             "Car Name": result["Car Name"],
             "InventoryQty": result["InventoryQty"],
             "maxInventoryQty": str(max_qty) if max_qty != "N/A" else "N/A",
-            "maxInventoryDate": max_date
+            "maxInventoryDate": max_date,
+            "linkUrl": result['linkUrl'],
+            "imgSrc": result['imgSrc']
         })
 
     with open(json_file, 'w', encoding='utf-8') as f:
