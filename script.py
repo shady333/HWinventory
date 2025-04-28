@@ -260,4 +260,4 @@ if __name__ == "__main__":
     update_csv_file(all_results_uk, "inventory_data_UK.csv")
 
     max_inventory = update_max_inventory(all_results, all_results_uk, "max_inventory.json")
-    save_to_json(all_results, all_results_uk, max_inventory, "inventory.json")
+    save_to_json(all_results, all_results_uk, max_inventory, "docs/inventory.json")
