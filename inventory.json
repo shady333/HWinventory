@@ -1,5 +1,5 @@
 {
-  "date": "28.04.2025 06:29 UTC",
+  "date": "28.04.2025 08:54 UTC",
   "us": [
     {
       "Car Series": "Mattel Creations",
@@ -39,7 +39,7 @@
     {
       "Car Series": "RLC",
       "Car Name": "Hot Wheels RLC Exclusive 1969 Dodge Charger R/T",
-      "InventoryQty": "19550",
+      "InventoryQty": "19438",
       "maxInventoryQty": "27550",
       "maxInventoryDate": "27.04.2025 04:17 UTC"
     },
@@ -53,14 +53,14 @@
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive 1995 Honda Integra Type R",
-      "InventoryQty": "2422",
+      "InventoryQty": "2420",
       "maxInventoryQty": "3147",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive '71 Lamborghini Miura P400 SV",
-      "InventoryQty": "3568",
+      "InventoryQty": "3567",
       "maxInventoryQty": "3735",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -74,7 +74,7 @@
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive Hot Wheels Kawa-Bug-A Membership Car – Mattel Creations",
-      "InventoryQty": "3973",
+      "InventoryQty": "3974",
       "maxInventoryQty": "4288",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -90,12 +90,12 @@
       "Car Name": "Hot Wheels Elite 64 Porsche 911 GT2 EVO 993",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "28.04.2025 06:29 UTC"
+      "maxInventoryDate": "28.04.2025 08:54 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Aston Martin Valkyrie",
-      "InventoryQty": "20900",
+      "InventoryQty": "20899",
       "maxInventoryQty": "21098",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -130,7 +130,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Elite 64 Mod Shop '17 Toyota Tacoma – Hot Wheels Collectors",
-      "InventoryQty": "14071",
+      "InventoryQty": "14070",
       "maxInventoryQty": "14141",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -151,7 +151,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Pandem Datsun 280ZX",
-      "InventoryQty": "7133",
+      "InventoryQty": "7132",
       "maxInventoryQty": "7251",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -174,7 +174,7 @@
       "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "28.04.2025 06:29 UTC"
+      "maxInventoryDate": "28.04.2025 08:54 UTC"
     },
     {
       "Car Series": "Premium",
@@ -186,7 +186,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Premium Car Culture 2-Pack '71 AMC Javelin & AMC Rebel Machine",
-      "InventoryQty": "2095",
+      "InventoryQty": "2096",
       "maxInventoryQty": "2219",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -337,7 +337,7 @@
       "Car Name": "Hot Wheels Collectors RLC Exclusive 2006 BMW M3",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "28.04.2025 06:29 UTC"
+      "maxInventoryDate": "28.04.2025 08:54 UTC"
     },
     {
       "Car Series": "UK RLC",
