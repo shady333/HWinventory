@@ -1,5 +1,5 @@
 {
-  "date": "28.04.2025 04:19 UTC",
+  "date": "28.04.2025 06:29 UTC",
   "us": [
     {
       "Car Series": "Mattel Creations",
@@ -53,14 +53,14 @@
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive 1995 Honda Integra Type R",
-      "InventoryQty": "2433",
+      "InventoryQty": "2422",
       "maxInventoryQty": "3147",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive '71 Lamborghini Miura P400 SV",
-      "InventoryQty": "3569",
+      "InventoryQty": "3568",
       "maxInventoryQty": "3735",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -74,7 +74,7 @@
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive Hot Wheels Kawa-Bug-A Membership Car – Mattel Creations",
-      "InventoryQty": "3974",
+      "InventoryQty": "3973",
       "maxInventoryQty": "4288",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -90,40 +90,40 @@
       "Car Name": "Hot Wheels Elite 64 Porsche 911 GT2 EVO 993",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "28.04.2025 04:19 UTC"
+      "maxInventoryDate": "28.04.2025 06:29 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Aston Martin Valkyrie",
-      "InventoryQty": "20903",
+      "InventoryQty": "20900",
       "maxInventoryQty": "21098",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 McLaren M6GT",
-      "InventoryQty": "23938",
+      "InventoryQty": "23936",
       "maxInventoryQty": "24036",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 1989 Toyota HiLux Stadium Truck",
-      "InventoryQty": "37099",
+      "InventoryQty": "37098",
       "maxInventoryQty": "37181",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Mod Shop '94 Land Rover Discovery",
-      "InventoryQty": "28757",
+      "InventoryQty": "28756",
       "maxInventoryQty": "28790",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 1990 BMW 318i Touring",
-      "InventoryQty": "27472",
+      "InventoryQty": "27470",
       "maxInventoryQty": "27591",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
@@ -144,277 +144,277 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Elite 64 Porsche 928 Safari| Mattel Creations",
-      "InventoryQty": "45596",
+      "InventoryQty": "45595",
       "maxInventoryQty": "45653",
       "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-elite-64-pandem-nissan-280zx-hnj59",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Elite 64 Pandem Datsun 280ZX",
+      "InventoryQty": "7133",
+      "maxInventoryQty": "7251",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/elite-64-series-21-audi-rs-7-sportback-hgw11",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Elite 64 Series '21 Audi RS 7 Sportback",
+      "InventoryQty": "31128",
+      "maxInventoryQty": "31173",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/elite-64-series-land-rover-defender-90-pickup-hgw12",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Elite 64 Series Land Rover Defender 90 Pickup – Mattel Creations",
+      "InventoryQty": "24649",
+      "maxInventoryQty": "24690",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Elite 64",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-elite-modified-69-ford-mustang-hgw13",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
+      "InventoryQty": "0",
+      "maxInventoryQty": "0",
+      "maxInventoryDate": "28.04.2025 06:29 UTC"
     },
     {
       "Car Series": "Premium",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-premium-fast-furious-jbl91",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Premium Fast & Furious Nissan 37OZ",
+      "InventoryQty": "3246",
+      "maxInventoryQty": "3313",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Premium",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-premium-car-culture-2-pack-jbl06",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Premium Car Culture 2-Pack '71 AMC Javelin & AMC Rebel Machine",
+      "InventoryQty": "2095",
+      "maxInventoryQty": "2219",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Premium",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-boulevard-vehicle-jbl18",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Boulevard Lancia Delta Integralle Vehicle",
+      "InventoryQty": "501",
+      "maxInventoryQty": "570",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Premium",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-boulevard-vehicle-jbl16",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Boulevard Vehicle Alpha Romeo GTV6 3.0",
+      "InventoryQty": "2849",
+      "maxInventoryQty": "2883",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Premium",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-boulevard-vehicle-hrt68",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Boulevard Mitsubishi 3000GT VR-4",
+      "InventoryQty": "0",
+      "maxInventoryQty": "5",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Premium",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-ford-mustang-rtr-hkc85",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Car Culture Slide Street 2 2018 Ford Mustang RTR Spec 5",
+      "InventoryQty": "816",
+      "maxInventoryQty": "850",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Premium",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-premium-car-culture-2-pack-hrr77",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Premium Car Culture 2-Pack Ford Bronco R & '17 Ford F-150 Raptor",
+      "InventoryQty": "1707",
+      "maxInventoryQty": "1747",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Premium",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/hot-wheels-premium-car-culture-2-pack-hrr83",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Premium Car Culture 2-Pack Volkswagen Jetta MK3 & Volkswagen ID R",
+      "InventoryQty": "0",
+      "maxInventoryQty": "79",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Matchbox",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/matchbox-1975-range-rover-hwx67",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Matchbox Collectors 1975 Range Rover",
+      "InventoryQty": "11078",
+      "maxInventoryQty": "11107",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Matchbox",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/1979-chevy-blazer-hwx77",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Matchbox 1979 Chevy Blazer",
+      "InventoryQty": "10363",
+      "maxInventoryQty": "10380",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Matchbox",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/matchbox-1995-volkswagen-golf-harlequin-hwx70",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Matchbox Collectors 1995 Volkswagen Golf Harlequin| Mattel Creations",
+      "InventoryQty": "6860",
+      "maxInventoryQty": "6884",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Matchbox",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/matchbox-70-datsun-510-rally-hwx69",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Matchbox 1970 Datsun 510 Rally",
+      "InventoryQty": "19830",
+      "maxInventoryQty": "19835",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Matchbox",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/matchbox-collectors-mercedes-benz-slr-mclaren-hlj84",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Matchbox Collectors Mercedes-Benz SLR McLaren",
+      "InventoryQty": "2871",
+      "maxInventoryQty": "2885",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Matchbox",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/matchbox-collector-motortrend-kurtis-sport-car-hwx72",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Matchbox 1949 Kurtis Sport Car",
+      "InventoryQty": "9568",
+      "maxInventoryQty": "9575",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Matchbox",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/mercedes-benz-unimog-u-5020-fire-truck-hlj82",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Matchbox Collectors Mercedes-Benz Unimog Fire Truck",
+      "InventoryQty": "7433",
+      "maxInventoryQty": "7441",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Matchbox",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/matchbox-2021-ford-bronco-hlj78",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Matchbox 2021 Ford Bronco – Mattel Creations",
+      "InventoryQty": "3550",
+      "maxInventoryQty": "3556",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Matchbox",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/matchbox-collectors-jeep-gladiator-hlj76",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Matchbox Collectors Jeep Gladiator – Mattel Creations",
+      "InventoryQty": "2980",
+      "maxInventoryQty": "2982",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "Matchbox",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/matchbox-1962-plymouth-savoy-hlj81",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Matchbox 1962 Plymouth Savoy – Mattel Creations",
+      "InventoryQty": "135",
+      "maxInventoryQty": "151",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     }
   ],
   "uk": [
     {
       "Car Series": "UK RLC",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://uk.creations.mattel.com/products/hot-wheels-rlc-exclusive-1995-honda-integra-type-r-jcp06",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "RLC Exclusive 1995 Honda Integra Type R",
+      "InventoryQty": "623",
+      "maxInventoryQty": "638",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "UK RLC",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://uk.creations.mattel.com/products/hot-wheels-rlc-22-ford-mustang-hwf05",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels RLC 2022 Ford Mustang Shelby GT500 Code Red",
+      "InventoryQty": "771",
+      "maxInventoryQty": "773",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "UK RLC",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://uk.creations.mattel.com/products/rlc-mclaren-f1-hgk75",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "RLC Exclusive McLaren F1",
+      "InventoryQty": "231",
+      "maxInventoryQty": "233",
+      "maxInventoryDate": "25.04.2025 03:03 UTC"
     },
     {
       "Car Series": "UK RLC",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://uk.creations.mattel.com/products/hot-wheels-rlc-kawa-bug-a-hwf03",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "RLC Exclusive Hot Wheels Kawa-Bug-A Membership Car",
+      "InventoryQty": "866",
+      "maxInventoryQty": "869",
+      "maxInventoryDate": "25.04.2025 03:03 UTC"
     },
     {
       "Car Series": "UK RLC",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://uk.creations.mattel.com/products/hot-wheels-rlc-2006-bmw-m3-jcp11",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Collectors RLC Exclusive 2006 BMW M3",
+      "InventoryQty": "0",
+      "maxInventoryQty": "0",
+      "maxInventoryDate": "28.04.2025 06:29 UTC"
     },
     {
       "Car Series": "UK RLC",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://uk.creations.mattel.com/products/hot-wheels-rlc-71-lamborghini-hwf11",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "RLC Exclusive '71 Lamborghini Miura P400 SV",
+      "InventoryQty": "768",
+      "maxInventoryQty": "773",
+      "maxInventoryDate": "25.04.2025 03:03 UTC"
     },
     {
       "Car Series": "UK RLC",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://uk.creations.mattel.com/products/hot-wheels-rlc-exclusive-porsche-959-jcp15",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "RLC Exclusive 1986 Porsche 959",
+      "InventoryQty": "0",
+      "maxInventoryQty": "46",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "UK Mattel Creations",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://uk.creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels x Mercedes-Benz Project G-class Past II Future designed by NIGO",
+      "InventoryQty": "SOLD OUT",
+      "maxInventoryQty": "91",
+      "maxInventoryDate": ""
     },
     {
       "Car Series": "UK Mattel Creations",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://uk.creations.mattel.com/products/hot-wheels-x-ferrari-heritage-set-jdk37",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels x Ferrari Heritage Set",
+      "InventoryQty": "SOLD OUT",
+      "maxInventoryQty": "815",
+      "maxInventoryDate": ""
     },
     {
       "Car Series": "UK Elite 64",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://uk.creations.mattel.com/products/hot-wheels-elite64-scania-770-s-tractor-trailer-hwr95",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Elite 64 Scania 770 S",
+      "InventoryQty": "SOLD OUT",
+      "maxInventoryQty": "241",
+      "maxInventoryDate": ""
     },
     {
       "Car Series": "UK Elite 64",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://uk.creations.mattel.com/products/hot-wheels-elite64-porsche-911-gt2-evo-993-hwr94",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Elite 64 Porsche 911 GT2 EVO 993",
+      "InventoryQty": "0",
+      "maxInventoryQty": "26",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "UK Elite 64",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://uk.creations.mattel.com/products/hot-wheels-elite-64-aston-martin-valkyrie-hwr91",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Elite 64 Aston Martin Valkyrie",
+      "InventoryQty": "242",
+      "maxInventoryQty": "256",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "UK Elite 64",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://uk.creations.mattel.com/products/hot-wheels-elite-64-mclaren-m6gt-hwg05",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Elite 64 McLaren M6GT",
+      "InventoryQty": "882",
+      "maxInventoryQty": "891",
+      "maxInventoryDate": "25.04.2025 03:03 UTC"
     },
     {
       "Car Series": "UK Elite 64",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://uk.creations.mattel.com/products/elite-64-series-21-audi-rs-7-sportback-hgw11",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Elite 64 Series '21 Audi RS 7 Sportback",
+      "InventoryQty": "45",
+      "maxInventoryQty": "56",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "UK Elite 64",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://uk.creations.mattel.com/products/hot-wheels-elite-modified-69-ford-mustang-hgw13",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
+      "InventoryQty": "26",
+      "maxInventoryQty": "54",
+      "maxInventoryDate": "19.04.2025 11:54 UTC"
     },
     {
       "Car Series": "UK Elite 64",
-      "Car Name": "Error: 429 Client Error: Too Many Requests for url: https://uk.creations.mattel.com/products/elite-64-series-land-rover-defender-90-pickup-hgw12",
-      "InventoryQty": "Error fetching data",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A"
+      "Car Name": "Elite 64 Series Land Rover Defender 90 Pickup – Mattel Creations",
+      "InventoryQty": "0",
+      "maxInventoryQty": "2",
+      "maxInventoryDate": "25.04.2025 03:03 UTC"
     }
   ]
 }
