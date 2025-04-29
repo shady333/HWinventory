@@ -1,7 +1,7 @@
 Car Series,Car Name,19.04.2025,20.04.2025,21.04.2025,22.04.2025,23.04.2025,24.04.2025,25.04.2025,26.04.2025,27.04.2025,28.04.2025,29.04.2025
 Elite 64,Elite 64 Bugatti Type 59 – Hot Wheels Collectors,15044,15037,15033,15029,15024,15019,15015,N/A,15003,15000,14996
 Elite 64,Elite 64 Mod Shop '17 Toyota Tacoma – Hot Wheels Collectors,14140,14129,14115,14106,14100,14089,14081,N/A,14073,14069,14055
-Elite 64,Elite 64 Porsche 928 Safari| Mattel Creations,45647,45641,45634,45629,45620,45613,45610,N/A,45597,45584,45577
+Elite 64,Elite 64 Porsche 928 Safari| Mattel Creations,45647,45641,45634,45629,45620,45613,45610,N/A,45597,45584,45576
 Elite 64,Elite 64 Series Land Rover Defender 90 Pickup – Mattel Creations,24688,24685,24678,24672,24667,24664,24661,N/A,24651,24647,24642
 Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/elite-64-mod-shop-17-toyota-tacoma-hnj64,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Error fetching data,N/A,N/A,N/A
 Elite 64,Error: 429 Client Error: Too Many Requests for url: https://creations.mattel.com/products/elite-64-series-21-audi-rs-7-sportback-hgw11,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Error fetching data,N/A,N/A,N/A
@@ -67,10 +67,10 @@ Premium,Hot Wheels Premium Car Culture 2-Pack '71 AMC Javelin & AMC Rebel Machin
 Premium,Hot Wheels Premium Car Culture 2-Pack Ford Bronco R & '17 Ford F-150 Raptor,1745,1743,1736,1734,1732,1721,1715,N/A,1707,1705,1704
 Premium,Hot Wheels Premium Car Culture 2-Pack Volkswagen Jetta MK3 & Volkswagen ID R,68,58,48,34,27,5,0,N/A,0,0,0
 Premium,Hot Wheels Premium Fast & Furious Nissan 37OZ,3311,3304,3295,3291,3284,3264,3259,N/A,3249,3245,3243
-RLC,Error: https://creations.mattel.com/products/rlc-exclusive-70s-dodge-tradesman-van-jcp23,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,RetryError[<Future at 0x7f8fc8e02d50 state=finished raised HTTPError>],RetryError[<Future at 0x7fecc7ab6190 state=finished raised HTTPError>]
+RLC,Error: https://creations.mattel.com/products/rlc-exclusive-70s-dodge-tradesman-van-jcp23,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,RetryError[<Future at 0x7f8fc8e02d50 state=finished raised HTTPError>],RetryError[<Future at 0x7f5c856cf7d0 state=finished raised HTTPError>]
 RLC,Hot Wheels RLC Exclusive 1969 Dodge Charger R/T,N/A,N/A,N/A,N/A,N/A,N/A,0,0,19552,19436,19370
 RLC,Hot Wheels RLC Exclusive ‘64 Dodge Power Wagon,10769,10758,10744,10728,10718,10706,10694,10688,10679,10671,10668
 RLC,RLC Exclusive '71 Lamborghini Miura P400 SV,3721,3703,3679,3654,3641,3623,3602,3579,3571,3558,3553
 RLC,RLC Exclusive 1986 Porsche 959,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT,SOLD OUT
-RLC,RLC Exclusive 1995 Honda Integra Type R,3100,3022,2939,2835,2766,2687,2595,2533,2454,2383,2358
+RLC,RLC Exclusive 1995 Honda Integra Type R,3100,3022,2939,2835,2766,2687,2595,2533,2454,2383,2357
 RLC,RLC Exclusive Hot Wheels Kawa-Bug-A Membership Car – Mattel Creations,4274,4246,4203,4174,4147,4115,4058,4020,3997,3957,3946
