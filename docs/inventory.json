@@ -1,5 +1,5 @@
 {
-  "date": "29.04.2025 06:23 UTC",
+  "date": "29.04.2025 08:22 UTC",
   "us": [
     {
       "Car Series": "Mattel Creations",
@@ -49,7 +49,7 @@
     {
       "Car Series": "RLC",
       "Car Name": "Hot Wheels RLC Exclusive 1969 Dodge Charger R/T",
-      "InventoryQty": "19435",
+      "InventoryQty": "19370",
       "maxInventoryQty": "27550",
       "maxInventoryDate": "27.04.2025 04:17 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-rlc-1969-dodge-charger-rt-jcp32",
@@ -67,7 +67,7 @@
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive 1995 Honda Integra Type R",
-      "InventoryQty": "2361",
+      "InventoryQty": "2358",
       "maxInventoryQty": "3147",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-rlc-exclusive-1995-honda-integra-type-r-jcp06",
@@ -94,7 +94,7 @@
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive Hot Wheels Kawa-Bug-A Membership Car – Mattel Creations",
-      "InventoryQty": "3949",
+      "InventoryQty": "3946",
       "maxInventoryQty": "4288",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-rlc-kawa-bug-a-jfh82",
@@ -103,7 +103,7 @@
     {
       "Car Series": "RLC",
       "Car Name": "Error: https://creations.mattel.com/products/rlc-exclusive-70s-dodge-tradesman-van-jcp23",
-      "InventoryQty": "RetryError[<Future at 0x7fea69b29690 state=finished raised HTTPError>]",
+      "InventoryQty": "RetryError[<Future at 0x7fecc7ab6190 state=finished raised HTTPError>]",
       "maxInventoryQty": "N/A",
       "maxInventoryDate": "N/A",
       "linkUrl": null,
@@ -123,7 +123,7 @@
       "Car Name": "Hot Wheels Elite 64 Porsche 911 GT2 EVO 993",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "29.04.2025 06:23 UTC",
+      "maxInventoryDate": "29.04.2025 08:22 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite64-porsche-911-gt2-evo-993-hwr94",
       "imgSrc": "hot-wheels-elite64-porsche-911-gt2-evo-993-hwr94.png"
     },
@@ -139,7 +139,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 McLaren M6GT",
-      "InventoryQty": "23926",
+      "InventoryQty": "23927",
       "maxInventoryQty": "24036",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite-64-mclaren-m6gt-hwg05",
@@ -148,7 +148,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 1989 Toyota HiLux Stadium Truck",
-      "InventoryQty": "37079",
+      "InventoryQty": "37080",
       "maxInventoryQty": "37181",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-e64-79-toyota-hilux-hwr90",
@@ -157,16 +157,16 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Mod Shop '94 Land Rover Discovery",
-      "InventoryQty": "28749",
-      "maxInventoryQty": "28790",
-      "maxInventoryDate": "19.04.2025 11:54 UTC",
+      "InventoryQty": "29291",
+      "maxInventoryQty": "29291",
+      "maxInventoryDate": "29.04.2025 08:22 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite64-94-land-rover-discovery-hnj65",
       "imgSrc": "hot-wheels-elite64-94-land-rover-discovery-hnj65.png"
     },
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 1990 BMW 318i Touring",
-      "InventoryQty": "27460",
+      "InventoryQty": "27459",
       "maxInventoryQty": "27591",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite-64-bmw-318i-e21-hnj60",
@@ -175,7 +175,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Elite 64 Mod Shop '17 Toyota Tacoma – Hot Wheels Collectors",
-      "InventoryQty": "14063",
+      "InventoryQty": "14055",
       "maxInventoryQty": "14141",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/elite-64-mod-shop-17-toyota-tacoma-hnj64",
@@ -184,7 +184,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Elite 64 Bugatti Type 59 – Hot Wheels Collectors",
-      "InventoryQty": "14997",
+      "InventoryQty": "14996",
       "maxInventoryQty": "15047",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite-64-bugatti-type-59-hnj62",
@@ -202,7 +202,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Pandem Datsun 280ZX",
-      "InventoryQty": "7117",
+      "InventoryQty": "7116",
       "maxInventoryQty": "7251",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite-64-pandem-nissan-280zx-hnj59",
@@ -220,7 +220,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Elite 64 Series Land Rover Defender 90 Pickup – Mattel Creations",
-      "InventoryQty": "24643",
+      "InventoryQty": "24642",
       "maxInventoryQty": "24690",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/elite-64-series-land-rover-defender-90-pickup-hgw12",
@@ -231,7 +231,7 @@
       "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "29.04.2025 06:23 UTC",
+      "maxInventoryDate": "29.04.2025 08:22 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite-modified-69-ford-mustang-hgw13",
       "imgSrc": "hot-wheels-elite-modified-69-ford-mustang-hgw13.png"
     },
@@ -256,9 +256,9 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Boulevard Lancia Delta Integralle Vehicle",
-      "InventoryQty": "500",
-      "maxInventoryQty": "570",
-      "maxInventoryDate": "19.04.2025 11:54 UTC",
+      "InventoryQty": "1500",
+      "maxInventoryQty": "1500",
+      "maxInventoryDate": "29.04.2025 08:22 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-boulevard-vehicle-jbl18",
       "imgSrc": "hot-wheels-boulevard-vehicle-jbl18.png"
     },
@@ -310,7 +310,7 @@
     {
       "Car Series": "Matchbox",
       "Car Name": "Matchbox Collectors 1975 Range Rover",
-      "InventoryQty": "11076",
+      "InventoryQty": "11075",
       "maxInventoryQty": "11107",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/matchbox-1975-range-rover-hwx67",
@@ -391,7 +391,7 @@
     {
       "Car Series": "Matchbox",
       "Car Name": "Matchbox 1962 Plymouth Savoy – Mattel Creations",
-      "InventoryQty": "133",
+      "InventoryQty": "132",
       "maxInventoryQty": "151",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/matchbox-1962-plymouth-savoy-hlj81",
@@ -440,7 +440,7 @@
       "Car Name": "Hot Wheels Collectors RLC Exclusive 2006 BMW M3",
       "InventoryQty": "0",
       "maxInventoryQty": "0",
-      "maxInventoryDate": "29.04.2025 06:23 UTC",
+      "maxInventoryDate": "29.04.2025 08:22 UTC",
       "linkUrl": "https://uk.creations.mattel.com/products/hot-wheels-rlc-2006-bmw-m3-jcp11",
       "imgSrc": "hot-wheels-rlc-2006-bmw-m3-jcp11.png"
     },
@@ -475,7 +475,7 @@
       "Car Series": "UK Mattel Creations",
       "Car Name": "Hot Wheels x Ferrari Heritage Set",
       "InventoryQty": "SOLD OUT",
-      "maxInventoryQty": "814",
+      "maxInventoryQty": "812",
       "maxInventoryDate": "",
       "linkUrl": "https://uk.creations.mattel.com/products/hot-wheels-x-ferrari-heritage-set-jdk37",
       "imgSrc": "hot-wheels-x-ferrari-heritage-set-jdk37.png"
@@ -484,7 +484,7 @@
       "Car Series": "UK Elite 64",
       "Car Name": "Hot Wheels Elite 64 Scania 770 S",
       "InventoryQty": "SOLD OUT",
-      "maxInventoryQty": "241",
+      "maxInventoryQty": "239",
       "maxInventoryDate": "",
       "linkUrl": "https://uk.creations.mattel.com/products/hot-wheels-elite64-scania-770-s-tractor-trailer-hwr95",
       "imgSrc": "hot-wheels-elite64-scania-770-s-tractor-trailer-hwr95.png"

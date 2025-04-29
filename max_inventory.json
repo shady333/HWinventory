@@ -81,8 +81,10 @@
     "Elite 64:Hot Wheels Elite 64 Mod Shop '94 Land Rover Discovery": {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Mod Shop '94 Land Rover Discovery",
-      "maxInventoryQty": 28790,
-      "maxInventoryDate": "19.04.2025 11:54 UTC"
+      "maxInventoryQty": 29291,
+      "maxInventoryDate": "29.04.2025 08:22 UTC",
+      "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite64-94-land-rover-discovery-hnj65",
+      "imgSrc": "hot-wheels-elite64-94-land-rover-discovery-hnj65.png"
     },
     "Elite 64:Hot Wheels Elite 64 1990 BMW 318i Touring": {
       "Car Series": "Elite 64",
@@ -130,7 +132,7 @@
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "29.04.2025 06:23 UTC",
+      "maxInventoryDate": "29.04.2025 08:22 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite-modified-69-ford-mustang-hgw13",
       "imgSrc": "hot-wheels-elite-modified-69-ford-mustang-hgw13.png"
     },
@@ -149,8 +151,10 @@
     "Premium:Hot Wheels Boulevard Lancia Delta Integralle Vehicle": {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Boulevard Lancia Delta Integralle Vehicle",
-      "maxInventoryQty": 570,
-      "maxInventoryDate": "19.04.2025 11:54 UTC"
+      "maxInventoryQty": 1500,
+      "maxInventoryDate": "29.04.2025 08:22 UTC",
+      "linkUrl": "https://creations.mattel.com/products/hot-wheels-boulevard-vehicle-jbl18",
+      "imgSrc": "hot-wheels-boulevard-vehicle-jbl18.png"
     },
     "Premium:Hot Wheels Boulevard Vehicle Alpha Romeo GTV6 3.0": {
       "Car Series": "Premium",
@@ -262,7 +266,7 @@
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Porsche 911 GT2 EVO 993",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "29.04.2025 06:23 UTC",
+      "maxInventoryDate": "29.04.2025 08:22 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite64-porsche-911-gt2-evo-993-hwr94",
       "imgSrc": "hot-wheels-elite64-porsche-911-gt2-evo-993-hwr94.png"
     },
@@ -304,7 +308,7 @@
       "Car Series": "UK RLC",
       "Car Name": "Hot Wheels Collectors RLC Exclusive 2006 BMW M3",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "29.04.2025 06:23 UTC",
+      "maxInventoryDate": "29.04.2025 08:22 UTC",
       "linkUrl": "https://uk.creations.mattel.com/products/hot-wheels-rlc-2006-bmw-m3-jcp11",
       "imgSrc": "hot-wheels-rlc-2006-bmw-m3-jcp11.png"
     },
@@ -333,7 +337,7 @@
     "UK Mattel Creations:Hot Wheels x Ferrari Heritage Set": {
       "Car Series": "UK Mattel Creations",
       "Car Name": "Hot Wheels x Ferrari Heritage Set",
-      "maxInventoryQty": 814,
+      "maxInventoryQty": 812,
       "maxInventoryDate": "",
       "linkUrl": "https://uk.creations.mattel.com/products/hot-wheels-x-ferrari-heritage-set-jdk37",
       "imgSrc": "hot-wheels-x-ferrari-heritage-set-jdk37.png"
@@ -341,7 +345,7 @@
     "UK Elite 64:Hot Wheels Elite 64 Scania 770 S": {
       "Car Series": "UK Elite 64",
       "Car Name": "Hot Wheels Elite 64 Scania 770 S",
-      "maxInventoryQty": 241,
+      "maxInventoryQty": 239,
       "maxInventoryDate": "",
       "linkUrl": "https://uk.creations.mattel.com/products/hot-wheels-elite64-scania-770-s-tractor-trailer-hwr95",
       "imgSrc": "hot-wheels-elite64-scania-770-s-tractor-trailer-hwr95.png"
