@@ -243,19 +243,37 @@ def save_to_json(all_results, all_results_uk, max_inventory, json_file):
             print(f"Помилка 429 виявлена для {result['linkUrl']}. Пропускаємо збереження JSON.")
             return  # Не зберігаємо файл, якщо є помилка 429
 
+    # Зчитуємо існуючий JSON-файл, якщо він існує
+    existing_data = {"date": "", "us": [], "uk": []}
+    if os.path.exists(json_file):
+        try:
+            with open(json_file, 'r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+        except json.JSONDecodeError:
+            print(f"Помилка зчитування JSON-файлу {json_file}. Створюємо новий.")
+
     current_date = datetime.now().strftime("%d.%m.%Y %H:%M UTC")
-    data = {
+    new_data = {
         "date": current_date,
-        "us": [],
-        "uk": []
+        "us": existing_data["us"].copy(),  # Зберігаємо існуючі дані для США
+        "uk": existing_data["uk"].copy()   # Зберігаємо існуючі дані для Великобританії
     }
 
+    # Оновлюємо дані для США, якщо є нові результати
     for result in all_results:
         key = f"{result['Car Series']}:{result['Car Name']}"
         max_data = max_inventory["us"].get(key, {})
         max_qty = max_data.get("maxInventoryQty", "N/A")
         max_date = max_data.get("maxInventoryDate", "N/A")
-        data["us"].append({
+
+        # Шукаємо існуючий запис для цього автомобіля
+        existing_car_index = next(
+            (i for i, car in enumerate(new_data["us"]) if car["Car Series"] == result["Car Series"] and car["Car Name"] == result["Car Name"]),
+            -1
+        )
+
+        # Новий запис для автомобіля
+        new_car = {
             "Car Series": result["Car Series"],
             "Car Name": result["Car Name"],
             "InventoryQty": result["InventoryQty"],
@@ -263,14 +281,31 @@ def save_to_json(all_results, all_results_uk, max_inventory, json_file):
             "maxInventoryDate": max_date,
             "linkUrl": result['linkUrl'],
             "imgSrc": result['imgSrc']
-        })
+        }
 
+        # Якщо запис існує, оновлюємо його, якщо InventoryQty змінилося
+        if existing_car_index != -1:
+            if new_data["us"][existing_car_index]["InventoryQty"] != result["InventoryQty"]:
+                new_data["us"][existing_car_index] = new_car
+        else:
+            # Якщо запису немає, додаємо новий
+            new_data["us"].append(new_car)
+
+    # Оновлюємо дані для Великобританії, якщо є нові результати
     for result in all_results_uk:
         key = f"{result['Car Series']}:{result['Car Name']}"
         max_data = max_inventory["uk"].get(key, {})
         max_qty = max_data.get("maxInventoryQty", "N/A")
         max_date = max_data.get("maxInventoryDate", "N/A")
-        data["uk"].append({
+
+        # Шукаємо існуючий запис для цього автомобіля
+        existing_car_index = next(
+            (i for i, car in enumerate(new_data["uk"]) if car["Car Series"] == result["Car Series"] and car["Car Name"] == result["Car Name"]),
+            -1
+        )
+
+        # Новий запис для автомобіля
+        new_car = {
             "Car Series": result["Car Series"],
             "Car Name": result["Car Name"],
             "InventoryQty": result["InventoryQty"],
@@ -278,10 +313,19 @@ def save_to_json(all_results, all_results_uk, max_inventory, json_file):
             "maxInventoryDate": max_date,
             "linkUrl": result['linkUrl'],
             "imgSrc": result['imgSrc']
-        })
+        }
 
+        # Якщо запис існує, оновлюємо його, якщо InventoryQty змінилося
+        if existing_car_index != -1:
+            if new_data["uk"][existing_car_index]["InventoryQty"] != result["InventoryQty"]:
+                new_data["uk"][existing_car_index] = new_car
+        else:
+            # Якщо запису немає, додаємо новий
+            new_data["uk"].append(new_car)
+
+    # Записуємо оновлені дані у файл
     with open(json_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        json.dump(new_data, f, ensure_ascii=False, indent=2)
 
 def load_urls(file_path):
     try:
