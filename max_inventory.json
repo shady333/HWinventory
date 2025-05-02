@@ -136,7 +136,7 @@
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "02.05.2025 01:13 UTC",
+      "maxInventoryDate": "02.05.2025 03:06 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite-modified-69-ford-mustang-hgw13",
       "imgSrc": "hot-wheels-elite-modified-69-ford-mustang-hgw13.png"
     },
@@ -270,7 +270,7 @@
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Porsche 911 GT2 EVO 993",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "02.05.2025 01:13 UTC",
+      "maxInventoryDate": "02.05.2025 03:06 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite64-porsche-911-gt2-evo-993-hwr94",
       "imgSrc": "hot-wheels-elite64-porsche-911-gt2-evo-993-hwr94.png"
     },
@@ -285,8 +285,8 @@
     "Brick Shop:Mattel Brick Shop Hot Wheels ’90 Acura NSX Building Set": {
       "Car Series": "Brick Shop",
       "Car Name": "Mattel Brick Shop Hot Wheels ’90 Acura NSX Building Set",
-      "maxInventoryQty": 2378,
-      "maxInventoryDate": "01.05.2025 12:30 UTC",
+      "maxInventoryQty": 2451,
+      "maxInventoryDate": "",
       "linkUrl": "https://creations.mattel.com/products/mattel-brick-shop-hot-wheels-90-acura-nsx-building-set-jft17",
       "imgSrc": "mattel-brick-shop-hot-wheels-90-acura-nsx-building-set-jft17.png"
     },
@@ -360,7 +360,7 @@
       "Car Series": "UK RLC",
       "Car Name": "Hot Wheels Collectors RLC Exclusive 2006 BMW M3",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "02.05.2025 01:13 UTC",
+      "maxInventoryDate": "02.05.2025 03:06 UTC",
       "linkUrl": "https://uk.creations.mattel.com/products/hot-wheels-rlc-2006-bmw-m3-jcp11",
       "imgSrc": "hot-wheels-rlc-2006-bmw-m3-jcp11.png"
     },
@@ -423,8 +423,10 @@
     "UK Elite 64:Hot Wheels Elite 64 Series '21 Audi RS 7 Sportback": {
       "Car Series": "UK Elite 64",
       "Car Name": "Hot Wheels Elite 64 Series '21 Audi RS 7 Sportback",
-      "maxInventoryQty": 56,
-      "maxInventoryDate": "19.04.2025 11:54 UTC"
+      "maxInventoryQty": 139,
+      "maxInventoryDate": "02.05.2025 03:06 UTC",
+      "linkUrl": "https://uk.creations.mattel.com/products/elite-64-series-21-audi-rs-7-sportback-hgw11",
+      "imgSrc": "elite-64-series-21-audi-rs-7-sportback-hgw11.png"
     },
     "UK Elite 64:Hot Wheels Elite 64 Series Modified ’69 Ford Mustang": {
       "Car Series": "UK Elite 64",
