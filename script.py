@@ -55,6 +55,7 @@ def get_page_data(url):
 
         if inventory_qty_value is None:
             inventory_qty_value = "Inventory quantity not found"
+            return None
         else:
             inventory_qty_int = int(inventory_qty_value)
             max_inventory_qty = abs(inventory_qty_int)
@@ -104,26 +105,28 @@ def process_url_group(group_name, urls):
     for url in urls:
         try:
             result = get_page_data(url)
-            results.append({
-                'Car Series': group_name,
-                'Car Name': result['title'],
-                'InventoryQty': result['inventoryQty'],
-                'maxInventoryQty': result['maxInventoryQty'],
-                'isNegative': result['isNegative'],
-                'linkUrl': result['linkUrl'],
-                'imgSrc': result['imgSrc'],
-            })
-            time.sleep(1)  # Затримка 1 секунда між запитами
+            if (result is not None):
+                results.append({
+                    'Car Series': group_name,
+                    'Car Name': result['title'],
+                    'InventoryQty': result['inventoryQty'],
+                    'maxInventoryQty': result['maxInventoryQty'],
+                    'isNegative': result['isNegative'],
+                    'linkUrl': result['linkUrl'],
+                    'imgSrc': result['imgSrc'],
+                })
+                time.sleep(1)  # Затримка 1 секунда між запитами
         except Exception as e:
-            results.append({
-                'Car Series': group_name,
-                'Car Name': f"Error: {url}",
-                'InventoryQty': str(e),
-                'maxInventoryQty': None,
-                'isNegative': False,
-                'linkUrl': None,
-                'imgSrc': None
-            })
+            print("ERROR ON GET DATA")
+            # results.append({
+            #     'Car Series': group_name,
+            #     'Car Name': f"Error: {url}",
+            #     'InventoryQty': str(e),
+            #     'maxInventoryQty': None,
+            #     'isNegative': False,
+            #     'linkUrl': None,
+            #     'imgSrc': None
+            # })
     return results
 
 def update_csv_file(all_results, csv_file):
@@ -294,14 +297,16 @@ if __name__ == "__main__":
         group_results = process_url_group(group["name"], group["urls"])
         all_results.extend(group_results)
 
-    update_csv_file(all_results, "inventory_data.csv")
+    if len(all_results) > 0:
+        update_csv_file(all_results, "inventory_data.csv")
 
     all_results_uk = []
     for group in urls_data.get("uk", []):
         group_results_UK = process_url_group(group["name"], group["urls"])
         all_results_uk.extend(group_results_UK)
 
-    update_csv_file(all_results_uk, "inventory_data_UK.csv")
+    if len(all_results_uk) > 0:
+        update_csv_file(all_results_uk, "inventory_data_UK.csv")
 
     max_inventory = update_max_inventory(all_results, all_results_uk, "max_inventory.json")
     save_to_json(all_results, all_results_uk, max_inventory, "docs/inventory.json")
