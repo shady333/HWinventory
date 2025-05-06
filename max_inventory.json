@@ -136,7 +136,7 @@
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Series Modified ’69 Ford Mustang",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "06.05.2025 20:18 UTC",
+      "maxInventoryDate": "06.05.2025 22:16 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite-modified-69-ford-mustang-hgw13",
       "imgSrc": "hot-wheels-elite-modified-69-ford-mustang-hgw13.png"
     },
@@ -270,7 +270,7 @@
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Porsche 911 GT2 EVO 993",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "06.05.2025 20:18 UTC",
+      "maxInventoryDate": "06.05.2025 22:16 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite64-porsche-911-gt2-evo-993-hwr94",
       "imgSrc": "hot-wheels-elite64-porsche-911-gt2-evo-993-hwr94.png"
     },
@@ -337,6 +337,14 @@
       "maxInventoryDate": "04.05.2025 06:22 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-rlc-1964-mercedes-benz-600-hwf12",
       "imgSrc": "hot-wheels-rlc-1964-mercedes-benz-600-hwf12.png"
+    },
+    "Premium:Hot Wheels Premium Car Culture 2-Pack - Morris Mini & '67 Austin Mini Pickup": {
+      "Car Series": "Premium",
+      "Car Name": "Hot Wheels Premium Car Culture 2-Pack - Morris Mini & '67 Austin Mini Pickup",
+      "maxInventoryQty": 2861,
+      "maxInventoryDate": "06.05.2025 22:16 UTC",
+      "linkUrl": "https://creations.mattel.com/products/hot-wheels-premium-car-culture-2-pack-jbk97",
+      "imgSrc": "hot-wheels-premium-car-culture-2-pack-jbk97.png"
     }
   },
   "uk": {
@@ -368,7 +376,7 @@
       "Car Series": "UK RLC",
       "Car Name": "Hot Wheels Collectors RLC Exclusive 2006 BMW M3",
       "maxInventoryQty": 0,
-      "maxInventoryDate": "06.05.2025 20:18 UTC",
+      "maxInventoryDate": "06.05.2025 22:16 UTC",
       "linkUrl": "https://uk.creations.mattel.com/products/hot-wheels-rlc-2006-bmw-m3-jcp11",
       "imgSrc": "hot-wheels-rlc-2006-bmw-m3-jcp11.png"
     },
