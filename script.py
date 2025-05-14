@@ -102,6 +102,7 @@ def get_page_data(url):
 
 def process_url_group(group_name, urls):
     results = []
+    print(f"Analysing group - {group_name}")
     for url in urls:
         try:
             result = get_page_data(url)
