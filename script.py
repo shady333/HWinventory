@@ -342,16 +342,16 @@ if __name__ == "__main__":
         group_results = process_url_group(group["name"], group["urls"])
         all_results.extend(group_results)
 
-    if len(all_results) > 0:
-        update_csv_file(all_results, "inventory_data.csv")
+    # if len(all_results) > 0:
+    #     update_csv_file(all_results, "inventory_data.csv")
 
     all_results_uk = []
     for group in urls_data.get("uk", []):
         group_results_UK = process_url_group(group["name"], group["urls"])
         all_results_uk.extend(group_results_UK)
 
-    if len(all_results_uk) > 0:
-        update_csv_file(all_results_uk, "inventory_data_UK.csv")
+    # if len(all_results_uk) > 0:
+    #     update_csv_file(all_results_uk, "inventory_data_UK.csv")
 
     max_inventory = update_max_inventory(all_results, all_results_uk, "max_inventory.json")
     save_to_json(all_results, all_results_uk, max_inventory, "docs/inventory.json")
