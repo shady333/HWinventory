@@ -1,4 +1,4 @@
-name: Scrape Mattel Creations
+name: Get Product Links from Mattel (2x per day)
 
 on:
   schedule:
