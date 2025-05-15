@@ -1,8 +1,8 @@
-name: Daily Inventory Scraper
+name: Get Qty from Mattel (each 4h)
 
 on:
   schedule:
-    - cron: '0 0,2,4,6,8,10,12,14,16,18,20,22 * * *'  # Кожні 2 години, включаючи 16:00 UTC
+    - cron: '0 2,6,10,12,18,22 * * *'  # Кожні 2 години, включаючи 16:00 UTC
   workflow_dispatch:  # Дозволяє ручний запуск
 
 jobs:
