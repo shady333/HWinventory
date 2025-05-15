@@ -2,8 +2,8 @@ name: Get Product Links from Mattel (2x per day)
 
 on:
   schedule:
-    - cron: '0 1,13 * * *'
-  workflow_dispatch:
+    - cron: '0 1,13 * * *'  # Запуск о 01:00 та 13:00 UTC щодня
+  workflow_dispatch:  # Дозволяє ручний запуск
 
 jobs:
   scrape:
@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -24,11 +26,19 @@ jobs:
         pip install requests beautifulsoup4 playwright
         playwright install
 
-    - name: Commit and update files
+    - name: Run scraper
+      run: python script.py
+
+    - name: Pull latest changes
       run: |
         git config --global user.name 'GitHub Action'
         git config --global user.email 'action@github.com'
+        git pull origin main --rebase
+      continue-on-error: true
+
+    - name: Commit and push files
+      run: |
         git add urls.json
         git commit -m 'Update links to products' || echo "No changes to commit"
-        git push
+        git push origin main
       continue-on-error: true
