@@ -2,7 +2,7 @@ name: Get Qty from Mattel (each 4h)
 
 on:
   schedule:
-    - cron: '0 2,6,10,12,18,22 * * *'  # Кожні 4 години, включаючи 16:00 UTC
+    - cron: '0 0,4,8,10,16,20 * * *'  # Кожні 4 години, включаючи 16:00 UTC
   workflow_dispatch:  # Дозволяє ручний запуск
 
 jobs:
