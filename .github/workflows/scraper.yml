@@ -35,6 +35,17 @@ jobs:
     - name: Run scraper
       run: python script.py
 
+    - name: Debug git status
+      run: |
+        git status
+        git diff
+      continue-on-error: true
+
+    - name: Pull latest changes before commit
+      run: |
+        git pull origin main --rebase
+      continue-on-error: true
+
     - name: Commit and push files
       run: |
         git add docs/inventory.json max_inventory.json
