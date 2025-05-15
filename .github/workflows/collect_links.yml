@@ -34,7 +34,7 @@ jobs:
       continue-on-error: true
 
     - name: Run scraper
-      run: python script.py
+      run: python scrape_mattel.py
 
     - name: Commit and push files
       run: |
