@@ -24,9 +24,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-
-    - name: Run scraper
-      run: python script.py
+        playwright install
 
     - name: Pull latest changes
       run: |
@@ -34,6 +32,9 @@ jobs:
         git config --global user.email 'action@github.com'
         git pull origin main --rebase
       continue-on-error: true
+
+    - name: Run scraper
+      run: python script.py
 
     - name: Commit and push files
       run: |
