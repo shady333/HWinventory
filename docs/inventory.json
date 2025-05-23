@@ -101,15 +101,6 @@
       "imgSrc": "hot-wheels-rlc-kawa-bug-a-jfh82.png"
     },
     {
-      "Car Series": "RLC",
-      "Car Name": "Error: https://creations.mattel.com/products/rlc-exclusive-70s-dodge-tradesman-van-jcp23",
-      "InventoryQty": "RetryError[<Future at 0x7fd3c1887a50 state=finished raised HTTPError>]",
-      "maxInventoryQty": "N/A",
-      "maxInventoryDate": "N/A",
-      "linkUrl": null,
-      "imgSrc": null
-    },
-    {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Scania 770 S",
       "InventoryQty": "SOLD OUT",
