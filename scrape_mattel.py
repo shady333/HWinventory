@@ -13,7 +13,7 @@ pages = [
     {"url": "https://creations.mattel.com/collections/hot-wheels-collectors", "region": "us"},
     {"url": "https://creations.mattel.com/collections/matchbox-collectors", "region": "us"},
     {"url": "https://creations.mattel.com/collections/mattel-creations", "region": "us"},
-    {"url": "https://uk.creations.mattel.com/collections/hot-wheels-collectors", "region": "uk"}
+    {"url": "https://uk.creations.mattel.com/collections/hot-wheels-collectors", "region": "uk"},
     {"url": "https://de.creations.mattel.com/collections/hot-wheels-collectors", "region": "de"}
 ]
 
