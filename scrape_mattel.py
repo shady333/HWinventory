@@ -14,6 +14,7 @@ pages = [
     {"url": "https://creations.mattel.com/collections/matchbox-collectors", "region": "us"},
     {"url": "https://creations.mattel.com/collections/mattel-creations", "region": "us"},
     {"url": "https://uk.creations.mattel.com/collections/hot-wheels-collectors", "region": "uk"}
+    {"url": "https://de.creations.mattel.com/collections/hot-wheels-collectors", "region": "de"}
 ]
 
 # Non-diecast items to skip (case-insensitive)
@@ -161,12 +162,12 @@ def main():
     all_products = []
     for page in pages:
         is_matchbox = "matchbox-collectors" in page["url"]
-        is_mattel_creations = "mattel-creations" in page["url"] and "uk" not in page["url"]
+        is_mattel_creations = "mattel-creations" in page["url"] and "uk" not in page["url"] and "de" not in page["url"]
         products = scrape_collection(page["url"], page["region"], is_matchbox, is_mattel_creations)
         all_products.extend(products)
 
     # Organize products by region and category
-    output = {"us": [], "uk": []}
+    output = {"us": [], "uk": [], "de": []}
     for region in output:
         # Get products for this region
         region_products = [p for p in all_products if p["region"] == region]
