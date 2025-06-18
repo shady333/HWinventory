@@ -1,4 +1,41 @@
 {
+  "uk": [
+    {
+      "name": "Elite 64",
+      "urls": [
+        "https://uk.creations.mattel.com/products/elite-64-series-21-audi-rs-7-sportback-hgw11",
+        "https://uk.creations.mattel.com/products/elite-64-series-land-rover-defender-90-pickup-hgw12",
+        "https://uk.creations.mattel.com/products/hot-wheels-elite-64-aston-martin-valkyrie-hwr91",
+        "https://uk.creations.mattel.com/products/hot-wheels-elite-64-mclaren-m6gt-hwg05",
+        "https://uk.creations.mattel.com/products/hot-wheels-elite-modified-69-ford-mustang-hgw13",
+        "https://uk.creations.mattel.com/products/hot-wheels-elite64-porsche-911-gt2-evo-993-hwr94",
+        "https://uk.creations.mattel.com/products/hot-wheels-elite64-scania-770-s-tractor-trailer-hwr95"
+      ]
+    },
+    {
+      "name": "Mattel Creations",
+      "urls": [
+        "https://uk.creations.mattel.com/products/hot-wheels-x-ferrari-heritage-set-jdk37",
+        "https://uk.creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31"
+      ]
+    },
+    {
+      "name": "RLC",
+      "urls": [
+        "https://uk.creations.mattel.com/products/1-year-rlc-digital-membership-hnb06",
+        "https://uk.creations.mattel.com/products/hot-wheel-rlc-1998-subaru-impreza-wrx-sti-jcp09",
+        "https://uk.creations.mattel.com/products/hot-wheels-rlc-1964-mercedes-benz-600-hwf12",
+        "https://uk.creations.mattel.com/products/hot-wheels-rlc-2006-bmw-m3-jcp11",
+        "https://uk.creations.mattel.com/products/hot-wheels-rlc-22-ford-mustang-hwf05",
+        "https://uk.creations.mattel.com/products/hot-wheels-rlc-71-lamborghini-hwf11",
+        "https://uk.creations.mattel.com/products/hot-wheels-rlc-exclusive-1995-honda-integra-type-r-jcp06",
+        "https://uk.creations.mattel.com/products/hot-wheels-rlc-exclusive-porsche-959-jcp15",
+        "https://uk.creations.mattel.com/products/hot-wheels-rlc-kawa-bug-a-hwf03",
+        "https://uk.creations.mattel.com/products/rlc-1990-chevy-454ss-jcp12",
+        "https://uk.creations.mattel.com/products/rlc-mclaren-f1-hgk75"
+      ]
+    }
+  ],
   "us": [
     {
       "name": "Brick Shop",
@@ -34,50 +71,15 @@
       ]
     },
     {
-      "name": "Matchbox",
-      "urls": [
-        "https://creations.mattel.com/products/1979-chevy-blazer-hwx77",
-        "https://creations.mattel.com/products/matchbox-1962-plymouth-savoy-hlj81",
-        "https://creations.mattel.com/products/matchbox-1975-mitsubishi-lancer-celeste-hlj79",
-        "https://creations.mattel.com/products/matchbox-1975-range-rover-hwx67",
-        "https://creations.mattel.com/products/matchbox-1993-bmw-e30-m3-hlj80",
-        "https://creations.mattel.com/products/matchbox-1995-volkswagen-golf-harlequin-hwx70",
-        "https://creations.mattel.com/products/matchbox-1996-audi-a4-super-touring-hwx73",
-        "https://creations.mattel.com/products/matchbox-2019-ram-ambulance-hlj77",
-        "https://creations.mattel.com/products/matchbox-2021-ford-bronco-hlj78",
-        "https://creations.mattel.com/products/matchbox-70-datsun-510-rally-hwx69",
-        "https://creations.mattel.com/products/matchbox-80-porsche-911-turbo-hlj85",
-        "https://creations.mattel.com/products/matchbox-collector-motortrend-kurtis-sport-car-hwx72",
-        "https://creations.mattel.com/products/matchbox-collectors-gold-state-coach-hwj96",
-        "https://creations.mattel.com/products/matchbox-collectors-jeep-gladiator-hlj76",
-        "https://creations.mattel.com/products/matchbox-collectors-mclaren-720s-spider-hlj83",
-        "https://creations.mattel.com/products/matchbox-collectors-mercedes-benz-slr-mclaren-hlj84",
-        "https://creations.mattel.com/products/matchbox-lamborghini-centenario-grj34",
-        "https://creations.mattel.com/products/matchbox-mercedes-benz-g-580-with-eq-technology-hxm19",
-        "https://creations.mattel.com/products/matchbox-porsche-911-rsr-hjw63",
-        "https://creations.mattel.com/products/matchbox-tootsie-roll-divco-milk-truck-hjw62",
-        "https://creations.mattel.com/products/matchbox-x-mr-brainwash-1964-austin-mini-cooper-s-jck45",
-        "https://creations.mattel.com/products/mercedes-benz-unimog-u-5020-fire-truck-hlj82"
-      ]
-    },
-    {
       "name": "Mattel Creations",
       "urls": [
-        "https://creations.mattel.com/products/eroded-ford-mustang-hot-wheels-daniel-arsham-hpj33",
-        "https://creations.mattel.com/products/eroded-porsche-safari-hot-wheels-daniel-arsham-hpj31",
         "https://creations.mattel.com/products/hot-wheels-arsham-bundle-jkj11",
         "https://creations.mattel.com/products/hot-wheels-daniel-arsham-dual-lane-curve-pak-poster-print-hxv61",
-        "https://creations.mattel.com/products/hot-wheels-daniel-arsham-eroded-porsche-930-and-rally-case-hpj27",
         "https://creations.mattel.com/products/hot-wheels-daniel-arsham-patches-sticker-set-hxv52",
         "https://creations.mattel.com/products/hot-wheels-daniel-arsham-spinner-keychain-hxv53",
-        "https://creations.mattel.com/products/hot-wheels-x-daniel-arsham-eroded-deora-ii-hpj34",
-        "https://creations.mattel.com/products/hot-wheels-x-daniel-arsham-eroded-rodger-dodger-hpj28",
-        "https://creations.mattel.com/products/hot-wheels-x-daniel-arsham-eroded-twin-mill-hpj32",
         "https://creations.mattel.com/products/hot-wheels-x-daniel-arsham-legends-archive-lap-2-poster-hxv62",
         "https://creations.mattel.com/products/hot-wheels-x-daniel-arsham-legends-archive-lap-3-poster-hxv63",
         "https://creations.mattel.com/products/hot-wheels-x-daniel-arsham-legends-archive-lap-4-poster-hxv64",
-        "https://creations.mattel.com/products/hot-wheels-x-daniel-arsham-livery-porsche-930a-hpj30",
-        "https://creations.mattel.com/products/hot-wheels-x-daniel-arsham-porsche-356-bonsai-speedster-hpj29",
         "https://creations.mattel.com/products/hot-wheels-x-ferrari-heritage-set-jdk37",
         "https://creations.mattel.com/products/hot-wheels-x-kenny-scharf-tumbler",
         "https://creations.mattel.com/products/hot-wheels-x-kenny-scharf-vehicle-hxd50",
@@ -292,43 +294,6 @@
         "https://creations.mattel.com/products/rlc-selections-1-jcp17",
         "https://creations.mattel.com/products/rlc-selections-82-lamborghini-countach-lp500-s-hgw25",
         "https://creations.mattel.com/products/rlc-selections-volkswagen-drag-bus-hwf24"
-      ]
-    }
-  ],
-  "uk": [
-    {
-      "name": "Elite 64",
-      "urls": [
-        "https://uk.creations.mattel.com/products/elite-64-series-21-audi-rs-7-sportback-hgw11",
-        "https://uk.creations.mattel.com/products/elite-64-series-land-rover-defender-90-pickup-hgw12",
-        "https://uk.creations.mattel.com/products/hot-wheels-elite-64-aston-martin-valkyrie-hwr91",
-        "https://uk.creations.mattel.com/products/hot-wheels-elite-64-mclaren-m6gt-hwg05",
-        "https://uk.creations.mattel.com/products/hot-wheels-elite-modified-69-ford-mustang-hgw13",
-        "https://uk.creations.mattel.com/products/hot-wheels-elite64-porsche-911-gt2-evo-993-hwr94",
-        "https://uk.creations.mattel.com/products/hot-wheels-elite64-scania-770-s-tractor-trailer-hwr95"
-      ]
-    },
-    {
-      "name": "Mattel Creations",
-      "urls": [
-        "https://uk.creations.mattel.com/products/hot-wheels-x-ferrari-heritage-set-jdk37",
-        "https://uk.creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31"
-      ]
-    },
-    {
-      "name": "RLC",
-      "urls": [
-        "https://uk.creations.mattel.com/products/1-year-rlc-digital-membership-hnb06",
-        "https://uk.creations.mattel.com/products/hot-wheel-rlc-1998-subaru-impreza-wrx-sti-jcp09",
-        "https://uk.creations.mattel.com/products/hot-wheels-rlc-1964-mercedes-benz-600-hwf12",
-        "https://uk.creations.mattel.com/products/hot-wheels-rlc-2006-bmw-m3-jcp11",
-        "https://uk.creations.mattel.com/products/hot-wheels-rlc-22-ford-mustang-hwf05",
-        "https://uk.creations.mattel.com/products/hot-wheels-rlc-71-lamborghini-hwf11",
-        "https://uk.creations.mattel.com/products/hot-wheels-rlc-exclusive-1995-honda-integra-type-r-jcp06",
-        "https://uk.creations.mattel.com/products/hot-wheels-rlc-exclusive-porsche-959-jcp15",
-        "https://uk.creations.mattel.com/products/hot-wheels-rlc-kawa-bug-a-hwf03",
-        "https://uk.creations.mattel.com/products/rlc-1990-chevy-454ss-jcp12",
-        "https://uk.creations.mattel.com/products/rlc-mclaren-f1-hgk75"
       ]
     }
   ],
