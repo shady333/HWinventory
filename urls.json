@@ -1,4 +1,19 @@
 {
+  "de": [
+    {
+      "name": "Mattel Creations",
+      "urls": [
+        "https://de.creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31"
+      ]
+    },
+    {
+      "name": "RLC",
+      "urls": [
+        "https://de.creations.mattel.com/products/1-year-rlc-digital-membership-hnb06",
+        "https://de.creations.mattel.com/products/hot-wheel-rlc-1998-subaru-impreza-wrx-sti-jcp09"
+      ]
+    }
+  ],
   "uk": [
     {
       "name": "Elite 64",
@@ -33,21 +48,6 @@
         "https://uk.creations.mattel.com/products/hot-wheels-rlc-kawa-bug-a-hwf03",
         "https://uk.creations.mattel.com/products/rlc-1990-chevy-454ss-jcp12",
         "https://uk.creations.mattel.com/products/rlc-mclaren-f1-hgk75"
-      ]
-    }
-  ],
-  "de": [
-    {
-      "name": "Mattel Creations",
-      "urls": [
-        "https://de.creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31"
-      ]
-    },
-    {
-      "name": "RLC",
-      "urls": [
-        "https://de.creations.mattel.com/products/1-year-rlc-digital-membership-hnb06",
-        "https://de.creations.mattel.com/products/hot-wheel-rlc-1998-subaru-impreza-wrx-sti-jcp09"
       ]
     }
   ],
