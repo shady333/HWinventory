@@ -24,6 +24,7 @@
       "urls": [
         "https://uk.creations.mattel.com/products/1-year-rlc-digital-membership-hnb06",
         "https://uk.creations.mattel.com/products/hot-wheel-rlc-1998-subaru-impreza-wrx-sti-jcp09",
+        "https://uk.creations.mattel.com/products/hot-wheels-rlc-1959-chevrolet-brookwood-jcp19",
         "https://uk.creations.mattel.com/products/hot-wheels-rlc-1964-mercedes-benz-600-hwf12",
         "https://uk.creations.mattel.com/products/hot-wheels-rlc-2006-bmw-m3-jcp11",
         "https://uk.creations.mattel.com/products/hot-wheels-rlc-22-ford-mustang-hwf05",
@@ -33,6 +34,22 @@
         "https://uk.creations.mattel.com/products/hot-wheels-rlc-kawa-bug-a-hwf03",
         "https://uk.creations.mattel.com/products/rlc-1990-chevy-454ss-jcp12",
         "https://uk.creations.mattel.com/products/rlc-mclaren-f1-hgk75"
+      ]
+    }
+  ],
+  "de": [
+    {
+      "name": "Mattel Creations",
+      "urls": [
+        "https://de.creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31"
+      ]
+    },
+    {
+      "name": "RLC",
+      "urls": [
+        "https://de.creations.mattel.com/products/1-year-rlc-digital-membership-hnb06",
+        "https://de.creations.mattel.com/products/hot-wheel-rlc-1998-subaru-impreza-wrx-sti-jcp09",
+        "https://de.creations.mattel.com/products/hot-wheels-rlc-1959-chevrolet-brookwood-jcp19"
       ]
     }
   ],
@@ -222,6 +239,7 @@
         "https://creations.mattel.com/products/2022-hot-wheels-super-treasure-hunt-set-hgk86",
         "https://creations.mattel.com/products/2023-rlc-membership-93-ford-cobra-r-hwrlc2023",
         "https://creations.mattel.com/products/hot-wheel-rlc-1998-subaru-impreza-wrx-sti-jcp09",
+        "https://creations.mattel.com/products/hot-wheels-rlc-1959-chevrolet-brookwood-jcp19",
         "https://creations.mattel.com/products/hot-wheels-rlc-1961-lincoln-continental-convertible-hmy24",
         "https://creations.mattel.com/products/hot-wheels-rlc-1964-chevrolet-impala-hwf20",
         "https://creations.mattel.com/products/hot-wheels-rlc-1964-dodge-w200-power-wagon-hwf09",
@@ -296,21 +314,6 @@
         "https://creations.mattel.com/products/rlc-selections-1-jcp17",
         "https://creations.mattel.com/products/rlc-selections-82-lamborghini-countach-lp500-s-hgw25",
         "https://creations.mattel.com/products/rlc-selections-volkswagen-drag-bus-hwf24"
-      ]
-    }
-  ],
-  "de": [
-    {
-      "name": "Mattel Creations",
-      "urls": [
-        "https://de.creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31"
-      ]
-    },
-    {
-      "name": "RLC",
-      "urls": [
-        "https://de.creations.mattel.com/products/1-year-rlc-digital-membership-hnb06",
-        "https://de.creations.mattel.com/products/hot-wheel-rlc-1998-subaru-impreza-wrx-sti-jcp09"
       ]
     }
   ]
