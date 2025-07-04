@@ -1,5 +1,5 @@
 {
-  "date": "04.07.2025 01:14 UTC",
+  "date": "04.07.2025 04:34 UTC",
   "de": [
     {
       "Car Series": "Mattel Creations",
@@ -54,6 +54,15 @@
       "maxInventoryDate": "",
       "linkUrl": "https://de.creations.mattel.com/products/hot-wheels-rlc-1959-chevrolet-brookwood-jcp19",
       "imgSrc": "hot-wheels-rlc-1959-chevrolet-brookwood-jcp19.png"
+    },
+    {
+      "Car Series": "RLC",
+      "Car Name": "RLC Exclusive Custom ’72 Datsun 240Z",
+      "InventoryQty": "0",
+      "maxInventoryQty": "0",
+      "maxInventoryDate": "04.07.2025 04:34 UTC",
+      "linkUrl": "https://de.creations.mattel.com/products/hot-wheels-rlc-custom-72-datsun-240z-jcp26",
+      "imgSrc": "hot-wheels-rlc-custom-72-datsun-240z-jcp26.png"
     }
   ],
   "us": [
@@ -141,7 +150,7 @@
     {
       "Car Series": "RLC",
       "Car Name": "Hot Wheels RLC Exclusive ‘64 Dodge Power Wagon",
-      "InventoryQty": "7812",
+      "InventoryQty": "7809",
       "maxInventoryQty": "10773",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-rlc-1964-dodge-w200-power-wagon-hwf09",
@@ -177,7 +186,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Aston Martin Valkyrie",
-      "InventoryQty": "17995",
+      "InventoryQty": "17994",
       "maxInventoryQty": "21098",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite-64-aston-martin-valkyrie-hwr91",
@@ -186,7 +195,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 McLaren M6GT",
-      "InventoryQty": "22504",
+      "InventoryQty": "22503",
       "maxInventoryQty": "24036",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite-64-mclaren-m6gt-hwg05",
@@ -204,7 +213,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Mod Shop '94 Land Rover Discovery",
-      "InventoryQty": "28195",
+      "InventoryQty": "28194",
       "maxInventoryQty": "29291",
       "maxInventoryDate": "29.04.2025 08:22 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite64-94-land-rover-discovery-hnj65",
@@ -213,7 +222,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 1990 BMW 318i Touring",
-      "InventoryQty": "22841",
+      "InventoryQty": "22837",
       "maxInventoryQty": "27591",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite-64-bmw-318i-e21-hnj60",
@@ -222,7 +231,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Elite 64 Mod Shop '17 Toyota Tacoma – Hot Wheels Collectors",
-      "InventoryQty": "11747",
+      "InventoryQty": "11745",
       "maxInventoryQty": "14141",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/elite-64-mod-shop-17-toyota-tacoma-hnj64",
@@ -240,7 +249,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Elite 64 Porsche 928 Safari| Mattel Creations",
-      "InventoryQty": "44289",
+      "InventoryQty": "44286",
       "maxInventoryQty": "46025",
       "maxInventoryDate": "01.05.2025 14:15 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite-64-porsche-928-safari-hnj58",
@@ -249,7 +258,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Pandem Datsun 280ZX",
-      "InventoryQty": "2790",
+      "InventoryQty": "2786",
       "maxInventoryQty": "7251",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite-64-pandem-nissan-280zx-hnj59",
@@ -258,7 +267,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Series '21 Audi RS 7 Sportback",
-      "InventoryQty": "30041",
+      "InventoryQty": "30040",
       "maxInventoryQty": "31173",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/elite-64-series-21-audi-rs-7-sportback-hgw11",
@@ -267,7 +276,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Elite 64 Series Land Rover Defender 90 Pickup – Mattel Creations",
-      "InventoryQty": "23707",
+      "InventoryQty": "23706",
       "maxInventoryQty": "24690",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/elite-64-series-land-rover-defender-90-pickup-hgw12",
@@ -285,7 +294,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Premium Fast & Furious Nissan 37OZ",
-      "InventoryQty": "2448",
+      "InventoryQty": "2447",
       "maxInventoryQty": "3313",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-premium-fast-furious-jbl91",
@@ -294,7 +303,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Premium Car Culture 2-Pack '71 AMC Javelin & AMC Rebel Machine",
-      "InventoryQty": "986",
+      "InventoryQty": "984",
       "maxInventoryQty": "2219",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-premium-car-culture-2-pack-jbl06",
@@ -312,7 +321,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Boulevard Vehicle Alpha Romeo GTV6 3.0",
-      "InventoryQty": "1928",
+      "InventoryQty": "1927",
       "maxInventoryQty": "2883",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-boulevard-vehicle-jbl16",
@@ -330,7 +339,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Car Culture Slide Street 2 2018 Ford Mustang RTR Spec 5",
-      "InventoryQty": "221",
+      "InventoryQty": "220",
       "maxInventoryQty": "850",
       "maxInventoryDate": "19.04.2025 11:54 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-ford-mustang-rtr-hkc85",
@@ -510,7 +519,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Premium Car Culture 2-Pack - Morris Mini & '67 Austin Mini Pickup",
-      "InventoryQty": "968",
+      "InventoryQty": "967",
       "maxInventoryQty": "2861",
       "maxInventoryDate": "06.05.2025 22:16 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-premium-car-culture-2-pack-jbk97",
@@ -672,7 +681,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Premium Fast & Furious 2003 Dodge Viper SRT 10",
-      "InventoryQty": "2907",
+      "InventoryQty": "2905",
       "maxInventoryQty": "3945",
       "maxInventoryDate": "13.05.2025 06:24 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-premium-fast-furious-vehicle-jbl85",
@@ -1149,7 +1158,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Car Culture Circuit Legends Alfa Romeo GTV 6 3.0",
-      "InventoryQty": "1290",
+      "InventoryQty": "1287",
       "maxInventoryQty": "1424",
       "maxInventoryDate": "14.05.2025 12:29 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-alfa-romeo-gtv-6-30-hrv80",
@@ -1239,7 +1248,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Premium Car Culture Japan Historics 4 Prince Skyline GT",
-      "InventoryQty": "1468",
+      "InventoryQty": "1467",
       "maxInventoryQty": "1838",
       "maxInventoryDate": "14.05.2025 12:29 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-hrv70",
@@ -1266,7 +1275,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Car Culture Japan Historics 4: '73 Honda Civic Custom",
-      "InventoryQty": "217",
+      "InventoryQty": "216",
       "maxInventoryQty": "714",
       "maxInventoryDate": "14.05.2025 12:29 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-hrv85",
@@ -1392,7 +1401,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Car Culture Off Road Vehicles Range Rover Classic",
-      "InventoryQty": "51",
+      "InventoryQty": "50",
       "maxInventoryQty": "306",
       "maxInventoryDate": "14.05.2025 12:29 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-vehicles-hkc71",
@@ -1401,7 +1410,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Car Culture Off Road Big-Air Bel-Air",
-      "InventoryQty": "641",
+      "InventoryQty": "640",
       "maxInventoryQty": "907",
       "maxInventoryDate": "14.05.2025 12:29 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-vehicles-hkc74",
@@ -1698,7 +1707,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Car Culture Slide Street 2 2023 Nissan Z",
-      "InventoryQty": "1476",
+      "InventoryQty": "1475",
       "maxInventoryQty": "1878",
       "maxInventoryDate": "14.05.2025 12:29 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-premium-car-culture-slide-street-hkc86",
@@ -1788,7 +1797,7 @@
     {
       "Car Series": "RLC",
       "Car Name": "RLC 1-Year Digital Membership – Mattel Creations",
-      "InventoryQty": "547056",
+      "InventoryQty": "547029",
       "maxInventoryQty": "562253",
       "maxInventoryDate": "14.05.2025 12:29 UTC",
       "linkUrl": "https://creations.mattel.com/products/1-year-rlc-digital-membership-hnb06",
@@ -2292,7 +2301,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Boulevard Toyota Land Cruiser FJ43",
-      "InventoryQty": "2542",
+      "InventoryQty": "2540",
       "maxInventoryQty": "3898",
       "maxInventoryDate": "24.05.2025 04:21 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-premium-boulevard-vehicle-jbl25",
@@ -2301,7 +2310,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Premium Car Culture Silhouettes Nissan300ZX IMSA GTS",
-      "InventoryQty": "1448",
+      "InventoryQty": "1447",
       "maxInventoryQty": "3884",
       "maxInventoryDate": "24.05.2025 04:21 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-premium-car-culture-silhouettes-nissan300zx-imsa-gts-jbk61",
@@ -2310,7 +2319,7 @@
     {
       "Car Series": "RLC",
       "Car Name": "Hot Wheels RLC Exclusive ‘70s Dodge Tradesman Van",
-      "InventoryQty": "2688",
+      "InventoryQty": "2683",
       "maxInventoryQty": "32290",
       "maxInventoryDate": "25.05.2025 08:22 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-rlc-exclusive-70s-dodge-tradesman-van-jcp23",
@@ -2319,7 +2328,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Premium Collector Display Sets",
-      "InventoryQty": "2768",
+      "InventoryQty": "2764",
       "maxInventoryQty": "3812",
       "maxInventoryDate": "28.05.2025 04:24 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-premium-collector-display-sets-jbm05",
@@ -2328,7 +2337,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Premium Fast & Furious McLaren Senna – Mattel Creations",
-      "InventoryQty": "3288",
+      "InventoryQty": "3287",
       "maxInventoryQty": "3957",
       "maxInventoryDate": "28.05.2025 04:24 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-premium-fast-furious-vehicle-jbl92",
@@ -2400,7 +2409,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Premium Car Culture Off Road '17 Ford F150 Raptor",
-      "InventoryQty": "3371",
+      "InventoryQty": "3370",
       "maxInventoryQty": "3991",
       "maxInventoryDate": "10.06.2025 04:28 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-premium-car-culture-off-road-jbk70",
@@ -2427,7 +2436,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Premium Fast & Furious 2020 Dodge Charger Hellcat",
-      "InventoryQty": "2030",
+      "InventoryQty": "2027",
       "maxInventoryQty": "2888",
       "maxInventoryDate": "17.06.2025 04:29 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-cars-premium-fast-furious-car-jbl96",
@@ -2436,7 +2445,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Premium Car Culture Fast Wagons Audi RS 6 Avant",
-      "InventoryQty": "294",
+      "InventoryQty": "278",
       "maxInventoryQty": "3756",
       "maxInventoryDate": "17.06.2025 04:29 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-premium-car-culture-fast-wagons-jbk51",
@@ -2463,7 +2472,7 @@
     {
       "Car Series": "Premium",
       "Car Name": "Hot Wheels Premium Pop Culture Combat Jet Skystriker",
-      "InventoryQty": "680",
+      "InventoryQty": "674",
       "maxInventoryQty": "2815",
       "maxInventoryDate": "21.06.2025 04:27 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-premium-pop-culture-jbl77",
@@ -2472,7 +2481,7 @@
     {
       "Car Series": "Elite 64",
       "Car Name": "Hot Wheels Elite 64 Toyota Corolla Levin (AE86) Custom",
-      "InventoryQty": "18519",
+      "InventoryQty": "18490",
       "maxInventoryQty": "32227",
       "maxInventoryDate": "26.06.2025 16:27 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-elite64-toyota-corolla-levin-ae86-custom-jcv06",
@@ -2481,11 +2490,20 @@
     {
       "Car Series": "RLC",
       "Car Name": "RLC Exclusive 1959 Chevrolet Brookwood",
-      "InventoryQty": "8272",
+      "InventoryQty": "8225",
       "maxInventoryQty": "32659",
       "maxInventoryDate": "29.06.2025 08:26 UTC",
       "linkUrl": "https://creations.mattel.com/products/hot-wheels-rlc-1959-chevrolet-brookwood-jcp19",
       "imgSrc": "hot-wheels-rlc-1959-chevrolet-brookwood-jcp19.png"
+    },
+    {
+      "Car Series": "RLC",
+      "Car Name": "RLC Exclusive Custom ’72 Datsun 240Z",
+      "InventoryQty": "0",
+      "maxInventoryQty": "0",
+      "maxInventoryDate": "04.07.2025 04:34 UTC",
+      "linkUrl": "https://creations.mattel.com/products/hot-wheels-rlc-custom-72-datsun-240z-jcp26",
+      "imgSrc": "hot-wheels-rlc-custom-72-datsun-240z-jcp26.png"
     }
   ],
   "uk": [
@@ -2704,6 +2722,15 @@
       "maxInventoryDate": "",
       "linkUrl": "https://uk.creations.mattel.com/products/hot-wheels-rlc-1959-chevrolet-brookwood-jcp19",
       "imgSrc": "hot-wheels-rlc-1959-chevrolet-brookwood-jcp19.png"
+    },
+    {
+      "Car Series": "RLC",
+      "Car Name": "RLC Exclusive Custom ’72 Datsun 240Z",
+      "InventoryQty": "0",
+      "maxInventoryQty": "0",
+      "maxInventoryDate": "04.07.2025 04:34 UTC",
+      "linkUrl": "https://uk.creations.mattel.com/products/hot-wheels-rlc-custom-72-datsun-240z-jcp26",
+      "imgSrc": "hot-wheels-rlc-custom-72-datsun-240z-jcp26.png"
     }
   ]
 }
