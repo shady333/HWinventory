@@ -1,4 +1,22 @@
 {
+  "de": [
+    {
+      "name": "Mattel Creations",
+      "urls": [
+        "https://de.creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31"
+      ]
+    },
+    {
+      "name": "RLC",
+      "urls": [
+        "https://de.creations.mattel.com/products/1-year-rlc-digital-membership-hnb06",
+        "https://de.creations.mattel.com/products/hot-wheel-rlc-1998-subaru-impreza-wrx-sti-jcp09",
+        "https://de.creations.mattel.com/products/hot-wheels-rlc-1959-chevrolet-brookwood-jcp19",
+        "https://de.creations.mattel.com/products/hot-wheels-rlc-custom-72-datsun-240z-jcp26",
+        "https://de.creations.mattel.com/products/rlc-exclusive-1976-volkswagen-golf-mk1-jcp07"
+      ]
+    }
+  ],
   "uk": [
     {
       "name": "Elite 64",
@@ -302,24 +320,6 @@
         "https://creations.mattel.com/products/rlc-selections-1-jcp17",
         "https://creations.mattel.com/products/rlc-selections-82-lamborghini-countach-lp500-s-hgw25",
         "https://creations.mattel.com/products/rlc-selections-volkswagen-drag-bus-hwf24"
-      ]
-    }
-  ],
-  "de": [
-    {
-      "name": "Mattel Creations",
-      "urls": [
-        "https://de.creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31"
-      ]
-    },
-    {
-      "name": "RLC",
-      "urls": [
-        "https://de.creations.mattel.com/products/1-year-rlc-digital-membership-hnb06",
-        "https://de.creations.mattel.com/products/hot-wheel-rlc-1998-subaru-impreza-wrx-sti-jcp09",
-        "https://de.creations.mattel.com/products/hot-wheels-rlc-1959-chevrolet-brookwood-jcp19",
-        "https://de.creations.mattel.com/products/hot-wheels-rlc-custom-72-datsun-240z-jcp26",
-        "https://de.creations.mattel.com/products/rlc-exclusive-1976-volkswagen-golf-mk1-jcp07"
       ]
     }
   ]
