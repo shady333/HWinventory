@@ -1,22 +1,4 @@
 {
-  "de": [
-    {
-      "name": "Mattel Creations",
-      "urls": [
-        "https://de.creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31"
-      ]
-    },
-    {
-      "name": "RLC",
-      "urls": [
-        "https://de.creations.mattel.com/products/1-year-rlc-digital-membership-hnb06",
-        "https://de.creations.mattel.com/products/hot-wheel-rlc-1998-subaru-impreza-wrx-sti-jcp09",
-        "https://de.creations.mattel.com/products/hot-wheels-rlc-1959-chevrolet-brookwood-jcp19",
-        "https://de.creations.mattel.com/products/hot-wheels-rlc-custom-72-datsun-240z-jcp26",
-        "https://de.creations.mattel.com/products/rlc-exclusive-1976-volkswagen-golf-mk1-jcp07"
-      ]
-    }
-  ],
   "uk": [
     {
       "name": "Elite 64",
@@ -57,6 +39,24 @@
       ]
     }
   ],
+  "de": [
+    {
+      "name": "Mattel Creations",
+      "urls": [
+        "https://de.creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31"
+      ]
+    },
+    {
+      "name": "RLC",
+      "urls": [
+        "https://de.creations.mattel.com/products/1-year-rlc-digital-membership-hnb06",
+        "https://de.creations.mattel.com/products/hot-wheel-rlc-1998-subaru-impreza-wrx-sti-jcp09",
+        "https://de.creations.mattel.com/products/hot-wheels-rlc-1959-chevrolet-brookwood-jcp19",
+        "https://de.creations.mattel.com/products/hot-wheels-rlc-custom-72-datsun-240z-jcp26",
+        "https://de.creations.mattel.com/products/rlc-exclusive-1976-volkswagen-golf-mk1-jcp07"
+      ]
+    }
+  ],
   "us": [
     {
       "name": "Brick Shop",
@@ -79,6 +79,7 @@
         "https://creations.mattel.com/products/hot-wheels-elite-64-aston-martin-valkyrie-hwr91",
         "https://creations.mattel.com/products/hot-wheels-elite-64-bmw-318i-e21-hnj60",
         "https://creations.mattel.com/products/hot-wheels-elite-64-bugatti-type-59-hnj62",
+        "https://creations.mattel.com/products/hot-wheels-elite-64-clamshell-track-pack-hmy20",
         "https://creations.mattel.com/products/hot-wheels-elite-64-freightliner-cascadia-hnj63",
         "https://creations.mattel.com/products/hot-wheels-elite-64-mclaren-m6gt-hwg05",
         "https://creations.mattel.com/products/hot-wheels-elite-64-pandem-nissan-280zx-hnj59",
@@ -104,12 +105,8 @@
         "https://creations.mattel.com/products/hot-wheels-x-daniel-arsham-legends-archive-lap-4-poster-hxv64",
         "https://creations.mattel.com/products/hot-wheels-x-ferrari-heritage-set-jdk37",
         "https://creations.mattel.com/products/hot-wheels-x-kenny-scharf-tumbler",
-        "https://creations.mattel.com/products/hot-wheels-x-kenny-scharf-vehicle-hxd50",
-        "https://creations.mattel.com/products/hot-wheels-x-kenny-scharf-vehicle-jkn09",
-        "https://creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31",
         "https://creations.mattel.com/products/hot-wheels-x-run-the-jewels-x-volcom-87-buick-regal-gnx-htt70",
         "https://creations.mattel.com/products/kenny-scharf-mens-service-jacket",
-        "https://creations.mattel.com/products/mattel-creations-hot-wheels-x-figure8-gwv45",
         "https://creations.mattel.com/products/mattel-creations-x-mschf-hot-wheels-not-wheels-vehicle-hwv25"
       ]
     },
@@ -119,11 +116,14 @@
         "https://creations.mattel.com/products/2022-car-culture-mix-3-mountain-drifters-case-pack-hff43",
         "https://creations.mattel.com/products/2022-car-culture-mix-5-jay-lenos-garage-case-pack-hff45",
         "https://creations.mattel.com/products/2022-hot-wheels-car-culture-mix-2-deutschland-design-case-pack-hff41",
+        "https://creations.mattel.com/products/2022-marvel-premium-4-pack-hff51",
         "https://creations.mattel.com/products/2022-premium-collector-set-2-exotic-hypercars-gmh39k",
         "https://creations.mattel.com/products/2022-premium-collector-set-3-bmw-m-team-gmh39l",
         "https://creations.mattel.com/products/hot-wheels-boulevard-datsun-510-wagon-jbl21",
         "https://creations.mattel.com/products/hot-wheels-boulevard-meyers-manx-jbl22",
+        "https://creations.mattel.com/products/hot-wheels-boulevard-vehicle-1-premium-164-scale-car-hrt65",
         "https://creations.mattel.com/products/hot-wheels-boulevard-vehicle-hrt57",
+        "https://creations.mattel.com/products/hot-wheels-boulevard-vehicle-hrt67",
         "https://creations.mattel.com/products/hot-wheels-boulevard-vehicle-hrt68",
         "https://creations.mattel.com/products/hot-wheels-boulevard-vehicle-hrt69",
         "https://creations.mattel.com/products/hot-wheels-boulevard-vehicle-jbl16",
@@ -137,6 +137,7 @@
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legend-nissan-300zx-twin-turbo-hck12",
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legend-toyota-starlet-1981-hck11",
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-71-porsche-911-hkc80",
+        "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-98-toyota-altezza-hkc66",
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-alfa-romeo-gtv-6-30-hrv80",
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-ford-mustang-rtr-hkc85",
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-hcj87",
@@ -159,6 +160,7 @@
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-hrv91",
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-mazda-rx-7-fc-hcj86",
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-mclaren-f1-hkc77",
+        "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-vehicle-hkc72",
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-vehicle-hrv94",
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-vehicles-74-volvo-142-gl-hkc53",
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-vehicles-bmw-e39-m5-hkc52",
@@ -171,6 +173,7 @@
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-vehicles-hkc61",
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-vehicles-hkc62",
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-vehicles-hkc71",
+        "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-vehicles-hkc73",
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-vehicles-hkc74",
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-vehicles-mercedes-benz-500e-hkc55",
         "https://creations.mattel.com/products/hot-wheels-car-culture-circuit-legends-volkswagen-golf-mk7-hrv79",
@@ -180,9 +183,9 @@
         "https://creations.mattel.com/products/hot-wheels-car-culture-subaru-wrx-sti-22b-hck14",
         "https://creations.mattel.com/products/hot-wheels-cars-premium-fast-furious-car-for-adult-collectors-hnm48",
         "https://creations.mattel.com/products/hot-wheels-cars-premium-fast-furious-car-hkd24",
+        "https://creations.mattel.com/products/hot-wheels-cars-premium-fast-furious-car-hvr61",
         "https://creations.mattel.com/products/hot-wheels-cars-premium-fast-furious-car-jbl96",
         "https://creations.mattel.com/products/hot-wheels-cars-premium-fast-furious-hrt96",
-        "https://creations.mattel.com/products/hot-wheels-elite-64-clamshell-track-pack-hmy20",
         "https://creations.mattel.com/products/hot-wheels-fast-and-furious-premium-series-nissan-skyline-gtr-hkd21",
         "https://creations.mattel.com/products/hot-wheels-fast-furious-dodge-charger-hellcat-hnw50",
         "https://creations.mattel.com/products/hot-wheels-fast-furious-lyman-hypersport-hnw49",
@@ -200,6 +203,7 @@
         "https://creations.mattel.com/products/hot-wheels-premium-car-culture-2-pack-hkf58",
         "https://creations.mattel.com/products/hot-wheels-premium-car-culture-2-pack-hkf59",
         "https://creations.mattel.com/products/hot-wheels-premium-car-culture-2-pack-hrr74",
+        "https://creations.mattel.com/products/hot-wheels-premium-car-culture-2-pack-hrr75",
         "https://creations.mattel.com/products/hot-wheels-premium-car-culture-2-pack-hrr76",
         "https://creations.mattel.com/products/hot-wheels-premium-car-culture-2-pack-hrr77",
         "https://creations.mattel.com/products/hot-wheels-premium-car-culture-2-pack-hrr83",
@@ -220,17 +224,22 @@
         "https://creations.mattel.com/products/hot-wheels-premium-car-culture-silhouettes-nissan300zx-imsa-gts-jbk61",
         "https://creations.mattel.com/products/hot-wheels-premium-car-culture-slide-street-hkc86",
         "https://creations.mattel.com/products/hot-wheels-premium-car-culture-speed-machines-5-pack-of-toy-cars-hhf42",
+        "https://creations.mattel.com/products/hot-wheels-premium-car-culture-speed-machines-container-set-of-5-cars-hkd98",
         "https://creations.mattel.com/products/hot-wheels-premium-collector-display-sets-hkc15",
         "https://creations.mattel.com/products/hot-wheels-premium-collector-display-sets-hkc16",
+        "https://creations.mattel.com/products/hot-wheels-premium-collector-display-sets-hrt54",
         "https://creations.mattel.com/products/hot-wheels-premium-collector-display-sets-jbm05",
         "https://creations.mattel.com/products/hot-wheels-premium-collector-display-sets-jbm06",
         "https://creations.mattel.com/products/hot-wheels-premium-collector-set-gmh39",
         "https://creations.mattel.com/products/hot-wheels-premium-fast-furious-1969-ford-mustand-boss-302-hnw47",
+        "https://creations.mattel.com/products/hot-wheels-premium-fast-furious-car-hrt94",
         "https://creations.mattel.com/products/hot-wheels-premium-fast-furious-jbl91",
         "https://creations.mattel.com/products/hot-wheels-premium-fast-furious-vehicle-jbl85",
-        "https://creations.mattel.com/products/hot-wheels-premium-fast-furious-vehicle-jbl92",
         "https://creations.mattel.com/products/hot-wheels-premium-pop-culture-jbl77",
         "https://creations.mattel.com/products/hot-wheels-premium-porsche-930-rwb-jbk58",
+        "https://creations.mattel.com/products/hot-wheels-premium-toy-car-hkc37",
+        "https://creations.mattel.com/products/hot-wheels-premium-vehicle-hvj35",
+        "https://creations.mattel.com/products/hot-wheels-premium-vehicle-hvj53",
         "https://creations.mattel.com/products/hot-wheels-retro-entertainment-collection-hkc25",
         "https://creations.mattel.com/products/hot-wheels-retro-entertainment-collection-of-1-64-scale-vehicles-hkc27",
         "https://creations.mattel.com/products/hot-wheels-ronin-run-container-set-hff46"
@@ -243,7 +252,6 @@
         "https://creations.mattel.com/products/2021-rlc-membership-car-kit-hwrlc2021",
         "https://creations.mattel.com/products/2022-hot-wheels-super-treasure-hunt-set-hgk86",
         "https://creations.mattel.com/products/2023-rlc-membership-93-ford-cobra-r-hwrlc2023",
-        "https://creations.mattel.com/products/hot-wheel-rlc-1998-subaru-impreza-wrx-sti-jcp09",
         "https://creations.mattel.com/products/hot-wheels-rlc-1959-chevrolet-brookwood-jcp19",
         "https://creations.mattel.com/products/hot-wheels-rlc-1961-lincoln-continental-convertible-hmy24",
         "https://creations.mattel.com/products/hot-wheels-rlc-1964-chevrolet-impala-hwf20",
@@ -266,15 +274,12 @@
         "https://creations.mattel.com/products/hot-wheels-rlc-custom-72-datsun-240z-jcp26",
         "https://creations.mattel.com/products/hot-wheels-rlc-exclusive-1969-chevy-camaro-ss-hwf32",
         "https://creations.mattel.com/products/hot-wheels-rlc-exclusive-1995-honda-integra-type-r-jcp06",
-        "https://creations.mattel.com/products/hot-wheels-rlc-exclusive-68-plymouth-barracuda-hwf13",
-        "https://creations.mattel.com/products/hot-wheels-rlc-exclusive-70s-dodge-tradesman-van-jcp23",
         "https://creations.mattel.com/products/hot-wheels-rlc-exclusive-porsche-959-jcp15",
         "https://creations.mattel.com/products/hot-wheels-rlc-kawa-bug-a-jfh82",
         "https://creations.mattel.com/products/hot-wheels-rlc-mercedes-amg-g-63-4x42-hmy21",
         "https://creations.mattel.com/products/hot-wheels-rlc-nissan-skyline-gt-r-r34-hwf14",
         "https://creations.mattel.com/products/hot-wheels-rlc-treasure-hunt-set-hnl32",
         "https://creations.mattel.com/products/hot-wheels-selections-car-2-hwf25",
-        "https://creations.mattel.com/products/rlc-1990-chevy-454ss-jcp12",
         "https://creations.mattel.com/products/rlc-75-chevy-monte-carlo-hwf19",
         "https://creations.mattel.com/products/rlc-cxclusive-118-candy-striper-crowdfund-hnl28",
         "https://creations.mattel.com/products/rlc-datsun-510-hwf23",
@@ -282,7 +287,6 @@
         "https://creations.mattel.com/products/rlc-exclusive-1969-chevy-camaro-ss-hnl21",
         "https://creations.mattel.com/products/rlc-exclusive-1969-dodge-charger-rt-hnl23",
         "https://creations.mattel.com/products/rlc-exclusive-1971-de-tomaso-mangusta-hnl22",
-        "https://creations.mattel.com/products/rlc-exclusive-1976-volkswagen-golf-mk1-jcp07",
         "https://creations.mattel.com/products/rlc-exclusive-1986-porsche-959-hgk85",
         "https://creations.mattel.com/products/rlc-exclusive-1986-porsche-959-hnl18",
         "https://creations.mattel.com/products/rlc-exclusive-1990-chevy-454-ss-hnl20",
