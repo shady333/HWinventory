@@ -42,41 +42,6 @@
       ]
     }
   ],
-  "de": [
-    {
-      "name": "Elite 64",
-      "urls": [
-        "https://de.creations.mattel.com/products/hot-wheels-elite-64-aston-martin-valkyrie-hwr91",
-        "https://de.creations.mattel.com/products/hot-wheels-elite-64-mclaren-m6gt-hwg05",
-        "https://de.creations.mattel.com/products/hot-wheels-elite64-bmw-m3-touring-hwr93"
-      ]
-    },
-    {
-      "name": "Mattel Creations",
-      "urls": [
-        "https://de.creations.mattel.com/products/hot-wheels-x-ferrari-heritage-set-jdk37",
-        "https://de.creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31"
-      ]
-    },
-    {
-      "name": "RLC",
-      "urls": [
-        "https://de.creations.mattel.com/products/1-year-rlc-digital-membership-hnb06",
-        "https://de.creations.mattel.com/products/hot-wheel-rlc-1998-subaru-impreza-wrx-sti-jcp09",
-        "https://de.creations.mattel.com/products/hot-wheels-rlc-1959-chevrolet-brookwood-jcp19",
-        "https://de.creations.mattel.com/products/hot-wheels-rlc-2006-bmw-m3-jcp11",
-        "https://de.creations.mattel.com/products/hot-wheels-rlc-22-ford-mustang-hwf05",
-        "https://de.creations.mattel.com/products/hot-wheels-rlc-71-lamborghini-hwf11",
-        "https://de.creations.mattel.com/products/hot-wheels-rlc-custom-72-datsun-240z-jcp26",
-        "https://de.creations.mattel.com/products/hot-wheels-rlc-exclusive-1995-honda-integra-type-r-jcp06",
-        "https://de.creations.mattel.com/products/hot-wheels-rlc-exclusive-porsche-959-jcp15",
-        "https://de.creations.mattel.com/products/rlc-1990-chevy-454ss-jcp12",
-        "https://de.creations.mattel.com/products/rlc-exclusive-1976-volkswagen-golf-mk1-jcp07",
-        "https://de.creations.mattel.com/products/rlc-exclusive-jaguar-jcp68",
-        "https://de.creations.mattel.com/products/rlc-gmc-typhoon-jcp13"
-      ]
-    }
-  ],
   "us": [
     {
       "name": "Brick Shop",
@@ -357,6 +322,41 @@
         "https://creations.mattel.com/products/rlc-selections-1-jcp17",
         "https://creations.mattel.com/products/rlc-selections-82-lamborghini-countach-lp500-s-hgw25",
         "https://creations.mattel.com/products/rlc-selections-volkswagen-drag-bus-hwf24"
+      ]
+    }
+  ],
+  "de": [
+    {
+      "name": "Elite 64",
+      "urls": [
+        "https://de.creations.mattel.com/products/hot-wheels-elite-64-aston-martin-valkyrie-hwr91",
+        "https://de.creations.mattel.com/products/hot-wheels-elite-64-mclaren-m6gt-hwg05",
+        "https://de.creations.mattel.com/products/hot-wheels-elite64-bmw-m3-touring-hwr93"
+      ]
+    },
+    {
+      "name": "Mattel Creations",
+      "urls": [
+        "https://de.creations.mattel.com/products/hot-wheels-x-ferrari-heritage-set-jdk37",
+        "https://de.creations.mattel.com/products/hot-wheels-x-mercedes-benz-past-ii-future-jgk31"
+      ]
+    },
+    {
+      "name": "RLC",
+      "urls": [
+        "https://de.creations.mattel.com/products/1-year-rlc-digital-membership-hnb06",
+        "https://de.creations.mattel.com/products/hot-wheel-rlc-1998-subaru-impreza-wrx-sti-jcp09",
+        "https://de.creations.mattel.com/products/hot-wheels-rlc-1959-chevrolet-brookwood-jcp19",
+        "https://de.creations.mattel.com/products/hot-wheels-rlc-2006-bmw-m3-jcp11",
+        "https://de.creations.mattel.com/products/hot-wheels-rlc-22-ford-mustang-hwf05",
+        "https://de.creations.mattel.com/products/hot-wheels-rlc-71-lamborghini-hwf11",
+        "https://de.creations.mattel.com/products/hot-wheels-rlc-custom-72-datsun-240z-jcp26",
+        "https://de.creations.mattel.com/products/hot-wheels-rlc-exclusive-1995-honda-integra-type-r-jcp06",
+        "https://de.creations.mattel.com/products/hot-wheels-rlc-exclusive-porsche-959-jcp15",
+        "https://de.creations.mattel.com/products/rlc-1990-chevy-454ss-jcp12",
+        "https://de.creations.mattel.com/products/rlc-exclusive-1976-volkswagen-golf-mk1-jcp07",
+        "https://de.creations.mattel.com/products/rlc-exclusive-jaguar-jcp68",
+        "https://de.creations.mattel.com/products/rlc-gmc-typhoon-jcp13"
       ]
     }
   ]
