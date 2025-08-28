@@ -1,9 +1,9 @@
 name: Get Product Links from Mattel (2x per day)
 
-on:
-  schedule:
-    - cron: '0 1,13 * * *'  # Запуск о 01:00 та 13:00 UTC щодня
-  workflow_dispatch:  # Дозволяє ручний запуск
+# on:
+#   schedule:
+#     - cron: '0 1,13 * * *'  # Запуск о 01:00 та 13:00 UTC щодня
+#   workflow_dispatch:  # Дозволяє ручний запуск
 
 jobs:
   scrape:
